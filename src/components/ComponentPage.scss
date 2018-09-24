@@ -35,11 +35,11 @@ p {
 }
 .PageContent {
     background: #FAFAFA;
-    min-height: -webkit-fill-available;
+    min-height: stretch;
 }
 .HomePageContent {
     background: #000;
-    min-height: -webkit-fill-available;
+    min-height: stretch;
     color: #fff;
 }
 .PageContent-spacing{
