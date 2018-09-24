@@ -1,0 +1,101 @@
+$whiteColor: #fff;
+
+.overview-header {
+    color: black;
+  }
+  .overview-section {
+    width: 700px;
+    font-family: Segoe UI;
+    color: black;
+    line-height: 48px;
+    font-weight: bold;
+    margin: 100px 0 0 40px;
+    font-size: 43px;
+  }
+  .ms-App-content {
+    background: #fff;
+    top:0;
+  }
+  .ms-App-nav {
+    top:0;
+    color: #fff;
+  }
+  .Overview, .Updates, .Resources {
+    background:blue;
+  }
+  .ms-App-header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: beige;
+    padding: 50px 150px;
+    background-position: 5px 50%;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/267px-F_icon.svg.png");
+}
+.Header {
+  background: white;
+}
+.ms-App-header {
+  position: absolute;
+  top: 0;
+  height: 50px;
+  left: 0;
+  right: 0;
+}
+.getting-started-instructions {
+  font-size: 24px;
+  font-family: 'Segoe UI';
+  font-weight: 500;
+  color: #3057d5;
+  padding: 50px 0 10px 0px;
+}
+  .short-divider {
+    position: absolute;
+    width: 200px;
+    margin: 100px 0px 0px 40px;
+    border: 0.5px solid #000000;
+  }
+  .long-divider {
+    position: absolute;
+    width: 750px;
+    border: 0.5px solid #000000;
+    margin: 0 0 0 225px;
+  }
+  .ComponentPage-header {
+    background-color: #f4f7fb;
+  }
+  .ComponentPage-title-subheader {
+    font-size: 24px;
+    color: #6b767d;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  .ComponentPage-title {
+    color:#152935;
+    font-size: 72px;
+    margin: 0;
+  }
+  .ComponentPage-pivot {
+    margin:110px 0px 0px 0px;
+  }
+  .ComponentPage-code {
+    border: 2px solid #f4f7fb;  
+    background: white;  
+    padding: 20px;
+
+    pre {
+      margin: 0px 300px 0px 0px;
+    }
+
+    .code-snippet {
+      color: white;
+      padding: 0;
+    }
+  }
+  .ms-Pivot-text {
+    color: #152935 !important;
+  }
+  .image-space {
+    padding: 0 100px 0 0;
+  }
