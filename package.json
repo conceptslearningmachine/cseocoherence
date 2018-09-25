@@ -2,6 +2,7 @@
   "name": "sse-studio-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://melakr.github.io/cseo-design",
   "dependencies": {
     "@petejkim/react-scripts-ts-sass": "2.15.2",
     "@types/react-router-dom": "^4.3.1",
