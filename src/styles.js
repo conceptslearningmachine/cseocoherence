@@ -56,14 +56,13 @@ h2 {
   text-decoration: none;
   padding:0;
 }
-.nav-link {
-  padding: 30px 0 0 0;
+.nav-link, .sub-link {
+  padding: 20px 0 0 1px;
   list-style-type: none;
 }
-.nav-link a {
+.nav-link a, sub-link a {
   text-decoration: none;
   color:#274652;
-  padding: 0 0 0 50px;
 }
 .nav-link .active {
   text-decoration: none;
@@ -71,10 +70,24 @@ h2 {
   font-weight: 600;
   display: flex;
   border-left: 4px solid #11CE0D;
-  padding: 10px 0 10px 50px;
+  padding: 4px 0 4px 45px;
+
+}
+.sub-link .active {
+  text-decoration: none;
+  color: #11CE0D;
+  font-weight: 600;
+  display: flex;
+  border-left: 4px solid #11CE0D;
+  padding: 4px 0 4px 60px;
+
 }
 .sub-list {
-  padding: 30px 0 0px 20px;
+  padding: 4px 0 4px 65px;
+}
+
+.nav-list {
+  padding: 4px 0 4px 50px;;
 }
 .cseo-icon {
   margin: 20px 30px 0px 30px;
@@ -93,7 +106,7 @@ ul .nav-sublist {
 .side-nav-sticky-scrolling {
   position: fixed;
   height: 100%;
-  overflow-y: auto;
-  width: 300px;
+  // overflow-y: auto;
+  width: 280px;
 }
 `;

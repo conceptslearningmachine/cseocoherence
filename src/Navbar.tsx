@@ -19,54 +19,63 @@ export class Navbar extends React.Component {
 </svg></Link>
         <ul className="nav-links">
           <li className="nav-link">
-            <NavLink to="/overview" activeClassName="active">Overview</NavLink>
+            <NavLink className="nav-list" to="/overview" activeClassName="active">Overview</NavLink>
           </li>
           <li className="nav-link">
-            <NavLink to="/updates">Updates</NavLink>
+            <NavLink className="nav-list" to="/updates">Updates</NavLink>
           </li>
           <li className="nav-link">
-            <NavLink to="/resources">Resources</NavLink>
+            <NavLink className="nav-list" to="/resources">Resources</NavLink>
           </li>
           <li className="nav-link">
             <b className="nav-header">GET STARTED</b>
               <ul className="nav-sublist">
-              <li className="nav-link">
-              <NavLink to="/DesignGetStarted">Designers</NavLink>
+              <li className="sub-link">
+              <NavLink className="sub-list" to="/DesignGetStarted">Designers</NavLink>
               </li>   
-              <li className="nav-link">
-              <NavLink to="/DeveloperGetStarted">Developers</NavLink>
+              <li className="sub-link">
+              <NavLink className="sub-list" to="/DeveloperGetStarted">Developers</NavLink>
               </li> 
               </ul>
           </li>
           <li className="nav-link">
             <b className="nav-header">STYLES</b>
               <ul className="nav-sublist">
-              <li className="nav-link">
-              <NavLink to="/styles/color">Color</NavLink>
+              <li className="sub-link">
+              <NavLink className="sub-list" to="/styles/color">Color</NavLink>
               </li>  
-              <li className="nav-link">
-              <NavLink to="/styles/grid">Grid</NavLink>
+              <li className="sub-link">
+              <NavLink className="sub-list" to="/styles/grid">Grid</NavLink>
               </li> 
-              <li className="nav-link">
-              <NavLink to="/styles/iconography">Iconography</NavLink>
+              <li className="sub-link">
+              <NavLink className="sub-list" to="/styles/iconography">Iconography</NavLink>
               </li>  
-              <li className="nav-link">
-              <NavLink to="/styles/typography">Typography</NavLink>
+              <li className="sub-link">
+              <NavLink className="sub-list" to="/styles/typography">Typography</NavLink>
               </li>   
               </ul>
           </li>
           <li className="nav-link">
             <b className="nav-header">PATTERNS</b>
               <ul className="nav-sublist">
-              <li className="nav-link">
-              <NavLink to="/patterns/card">Card</NavLink>
+              <li className="sub-link">
+              <NavLink className="sub-list" to="/patterns/card">Card</NavLink>
               </li>  
-              <li className="nav-link">
-              <NavLink to="/patterns/header">Header</NavLink>
+              <li className="sub-link">
+              <NavLink className="sub-list" to="/patterns/header">Header</NavLink>
               </li> 
-              <li className="nav-link">
-              <NavLink to="/patterns/navigation">Navigation</NavLink>
+              <li className="sub-link">
+              <NavLink className="sub-list" to="/patterns/navigation">Navigation</NavLink>
+              </li> 
+
+              {/* Empty space for Padding */}
+              <li>
+              <Link to=""></Link>
               </li>    
+              {/* Empty space for Padding */}
+              <li>
+              <Link to=""></Link>
+              </li> 
               </ul>
               {/* <img src={MicrosoftLogoJPG} alt="Illustration of Grid Legend." /> */}
           </li>
