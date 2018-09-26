@@ -40,63 +40,63 @@ const Color = () => {
                         <div className="color-palette light000"></div>
                         <ul className="color-info">
                             <li>Light 000</li>
-                            <li>#ffffff</li>
+                            <li>#FFFFFF</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette light100"></div>
                         <ul className="color-info">
                             <li>Light 100</li>
-                            <li>#fafafa</li>
+                            <li>#FAFAFA</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette light200"></div>
                         <ul className="color-info">
                             <li>Light 200</li>
-                            <li>#f6f6f6</li>
+                            <li>#F6F6F6</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette light300"></div>
                         <ul className="color-info">
                             <li>Light 300</li>
-                            <li>#f2f2f2</li>
+                            <li>#F2F2F2</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette light400"></div>
                         <ul className="color-info">
                             <li>Light 400</li>
-                            <li>#e9e9e9</li>
+                            <li>#E9E9E9</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette light500"></div>
                         <ul className="color-info">
                             <li>Light 500</li>
-                            <li>#e9e9e9</li>
+                            <li>#E9E9E9</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette light600"></div>
                         <ul className="color-info">
                             <li>Light 600</li>
-                            <li>#e9e9e9</li>
+                            <li>#E9E9E9</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette light700"></div>
                         <ul className="color-info">
                             <li>Light 700</li>
-                            <li>#dddddd</li>
+                            <li>#DDDDDD</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette light800"></div>
                         <ul className="color-info">
                             <li>Light 800</li>
-                            <li>#c4c4c4</li>
+                            <li>#C4C4C4</li>
                         </ul>
                     </div>
                 </div>
@@ -129,28 +129,28 @@ const Color = () => {
                         <div className="color-palette disabled"></div>
                         <ul className="color-info">
                             <li>Disabled</li>
-                            <li>#a6a6a6</li>
+                            <li>#A6A6A6</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette hyperlink000"></div>
                         <ul className="color-info">
                             <li>Hyperlink</li>
-                            <li>#0078d4</li>
+                            <li>#0078D4</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette hyperlink100"></div>
                         <ul className="color-info">
                             <li>Hyperlink</li>
-                            <li>#106ebe</li>
+                            <li>#106EBE</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette hyperlink200"></div>
                         <ul className="color-info">
                             <li>Hyperlink</li>
-                            <li>#005a9e</li>
+                            <li>#005A9E</li>
                         </ul>
                     </div>
                 </div>
@@ -172,21 +172,21 @@ const Color = () => {
                         <div className="color-palette icons-warning-severe"></div>
                         <ul className="color-info">
                             <li>Severe Warning</li>
-                            <li>#d83b01</li>
+                            <li>#D83B01</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette icons-success"></div>
                         <ul className="color-info">
                             <li>Success</li>
-                            <li>#107c10</li>
+                            <li>#107C10</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette error"></div>
                         <ul className="color-info">
                             <li>Error block</li>
-                            <li>#a80000</li>
+                            <li>#A80000</li>
                         </ul>
                     </div>
                 </div>
@@ -200,21 +200,21 @@ const Color = () => {
                         <div className="color-palette alert-warning"></div>
                         <ul className="color-info">
                             <li>Warning</li>
-                            <li>#fff4ce</li>
+                            <li>#FFFF4CE</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette alert-warning-severe"></div>
                         <ul className="color-info">
                             <li>Severe Warning</li>
-                            <li>#fed9cc</li>
+                            <li>#FED9CC</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette alert-success"></div>
                         <ul className="color-info">
                             <li>Success</li>
-                            <li>#dff6dd</li>
+                            <li>#DFF6DD</li>
                         </ul>
                     </div>
                 </div>
