@@ -1,7 +1,10 @@
 import * as React from "react";
 import './ComponentPage.scss';
 import { Link } from 'react-router-dom';
-import CardExampleJPG from '../assets/small-card.jpg'
+import CardExampleJPG from '../assets/small-card.jpg';
+import CardExampleExpand from '../assets/card/card-small-expand-icon.png';
+import CardExampleHyperlink from '../assets/card/card-small-hyperlink.png';
+import CardExampleDetails from '../assets/card/card-overflow-details.png';
 import { Highlight } from '@uifabric/example-app-base';
 import './HomePage.scss';
 
@@ -11,13 +14,7 @@ const Card = () => {
         <div className="PageContent">
           
          <div className="GlobalHeader"><b>Coherence</b> 
-         {/* <span className="Developer-quicklinks">Developer
-            <br/> <p className="spacing">Get Fabric React</p>
-            <br/> <p className="no-spacing">Get Fabric Core</p>
-         </span> 
-         <span className="Designer-quicklinks">Designer
-         <br/> <p className="spacing">Get SSE Toolkit<br/> on Figma</p>
-         </span> */}
+         <span className="contact-quicklinks"><Link to="/resources">Contact Us</Link></span>
           </div>
 
          <div className="PageContent-spacing">
@@ -28,8 +25,16 @@ const Card = () => {
          <div className="Intro"><p>Brief introduction about the SSE card system, from where it originates (M365 card) 
          and how it has been adopted to fit SSE needs. About 4-5 lines of text. Brief introduction about the SSE card system, 
          from where it originates (M365 card) and how it has been adopted to fit SSE needs. About 4-5 lines of text.</p></div>
-        <div className="CardImage-spacing"><img src={CardExampleJPG} alt="Illustration showing a Card component." width="400" />
-        </div>
+         <div className="med-spacing"></div>
+         <div className="SubHeader">Card types</div>
+         Card with Overflow menu
+        <div className="CardImage-spacing"><img src={CardExampleJPG} alt="Illustration showing a Card component." width="400" /></div>
+        Card with expand-collapse functionality
+        <div className="CardImage-spacing"><img src={CardExampleExpand} alt="Illustration showing a small Card with expand and collapse." width="400" /></div>
+        Card with  external hyperlink to second level view
+        <div className="CardImage-spacing"><img src={CardExampleHyperlink} alt="Illustration showing a small Card with an external hyperlink." width="400" /></div>
+        <div className="SubHeader">Card overflow patterns</div>
+        <div className="CardImage-spacing"><img src={CardExampleDetails} alt="Illustration showing a small Card with overflow and details."  /></div>
 
         {/* Card Code Section */}
         <div className="SubHeader">Fabric Component Usage</div>

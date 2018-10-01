@@ -10,13 +10,7 @@ const Color = () => {
         <div className="PageContent">
 
             <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b>
-                {/* <span className="Developer-quicklinks">Developer
-            <br/> <p className="spacing">Get Fabric React</p>
-            <br/> <p className="no-spacing">Get Fabric Core</p>
-         </span> 
-         <span className="Designer-quicklinks">Designer
-         <br/> <p className="spacing">Get SSE Toolkit<br/> on Figma</p>
-         </span> */}
+            <span className="contact-quicklinks"> <a href="" target="_blank">Contact Us</a></span>
             </div>
 
             <div className="PageContent-spacing">
@@ -129,7 +123,7 @@ const Color = () => {
                         <div className="color-palette light400"></div>
                         <ul className="color-info">
                             <li>Light 400</li>
-                            <li>#E9E9E9</li>
+                            <li>#EDEDED</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
@@ -143,7 +137,7 @@ const Color = () => {
                         <div className="color-palette light600"></div>
                         <ul className="color-info">
                             <li>Light 600</li>
-                            <li>#E9E9E9</li>
+                            <li>#E5E5E5</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
@@ -157,7 +151,7 @@ const Color = () => {
                         <div className="color-palette light800"></div>
                         <ul className="color-info">
                             <li>Light 800</li>
-                            <li>#C4C4C4</li>
+                            <li>#D5D5D5</li>
                         </ul>
                     </div>
                 </div>

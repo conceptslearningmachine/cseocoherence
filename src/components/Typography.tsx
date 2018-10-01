@@ -1,6 +1,6 @@
 import * as React from "react";
 import './ComponentPage.scss';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './HomePage.scss';
 import './Typography.scss';
 import FontRampGreen from '../assets/type/green-font-ramp.png';
@@ -11,13 +11,7 @@ const Typography = () => {
     <div className="PageContent">
 
       <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b>
-        {/* <span className="Developer-quicklinks">Developer
-            <br/> <p className="spacing">Get Fabric React</p>
-            <br/> <p className="no-spacing">Get Fabric Core</p>
-         </span> 
-         <span className="Designer-quicklinks">Designer
-         <br/> <p className="spacing">Get SSE Toolkit<br/> on Figma</p>
-         </span> */}
+      <span className="contact-quicklinks"><Link to="/resources">Contact Us</Link></span>
       </div>
 
       <div className="PageContent-spacing">

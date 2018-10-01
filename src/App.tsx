@@ -4,7 +4,6 @@ import Home from './components/Home';
 import Updates from './components/Updates';
 import Resources from './components/Resources';
 import Overview from './components/Overview';
-import DesignHomePage from './components/DesignHomePage';
 import DeveloperGetStarted from './components/DeveloperGetStarted';
 import DesignGetStarted from './components/DesignGetStarted';
 import Color from './components/Color';
@@ -32,7 +31,6 @@ const App = () => (
         <Route path="/updates" component={Updates} />
         <Route path="/resources" component={Resources} />
         {/* Get Started */}
-        <Route path="/DesignGettingStarted" component={DesignHomePage} />
         <Route path="/DesignGetStarted" component={DesignGetStarted} />
         <Route path="/DeveloperGetStarted" component={DeveloperGetStarted} />
         {/* Styles */}

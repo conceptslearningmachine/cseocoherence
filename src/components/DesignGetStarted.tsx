@@ -4,6 +4,7 @@ import './HomePage.scss';
 import FigmaLoginJPG from '../assets/design-onboarding1.jpg'
 import WelcomeFigmaJPG from '../assets/welcomeDialog.jpg'
 import LeftNavFigmaJPG from '../assets/left-side-bar.jpg'
+import { Link } from 'react-router-dom';
 import MicrosoftOrgFigmaJPG from '../assets/microsoft-organization.jpg'
 import RequestJoinFigmaJPG from '../assets/request-join.jpg'
 
@@ -13,13 +14,7 @@ const DesignGetStarted = () => {
         <div className="PageContent">
 
             <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b>
-                {/* <span className="Developer-quicklinks">Developer
-            <br/> <p className="spacing">Get Fabric React</p>
-            <br/> <p className="no-spacing">Get Fabric Core</p>
-         </span> 
-         <span className="Designer-quicklinks">Designer
-         <br/> <p className="spacing">Get SSE Toolkit<br/> on Figma</p>
-         </span> */}
+            <span className="contact-quicklinks"><Link to="/resources">Contact Us</Link></span>
             </div>
 
             <div className="PageContent-spacing">
