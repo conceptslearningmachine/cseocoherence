@@ -8,7 +8,7 @@ const Updates = () => {
     return (  
         <div className="PageContent">
           
-         <div className="GlobalHeader"><b>Coherence</b> 
+         <div className="GlobalHeader"><div className="Page-cseo-header">CSEO</div><b> Coherence</b> 
          {/* <span className="Developer-quicklinks">Developer
             <br/> <p className="spacing">Get Fabric React</p>
             <br/> <p className="no-spacing">Get Fabric Core</p>
@@ -22,13 +22,10 @@ const Updates = () => {
          <div className="PageHeader"><h1>Updates</h1> 
          
          </div>
-        {/* Icon Intro w/ image Section */}
-         <div className="Intro"><p>CSEO Design System currently utilizes Fluent for Fabric. The library currently includes 9 theme colors and 11 neutral colors. Each has helper classes for text, 
-         background, border, and hover states. When selecting colors, refer to the color accessibility guidance (PDF) to 
-         ensure that your text can be ready by everyone. If you need to customize your theme, see the Theme generator.</p></div>
-        {/* Icon Placeholder for more content */}
-        <div className="IconImage-placeholder">
-        </div>
+         <div className="med-spacing"></div>
+         <p><b>Release 1.0.0. — September 30th, 2018</b></p>
+        <p className="semibold">ADDED</p>
+        <p>CSEO MVP design system site live.</p>
         </div>
         </div>
         

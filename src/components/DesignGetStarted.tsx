@@ -12,7 +12,7 @@ const DesignGetStarted = () => {
     return (
         <div className="PageContent">
 
-            <div className="GlobalHeader"><b>Coherence</b>
+            <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b>
                 {/* <span className="Developer-quicklinks">Developer
             <br/> <p className="spacing">Get Fabric React</p>
             <br/> <p className="no-spacing">Get Fabric Core</p>

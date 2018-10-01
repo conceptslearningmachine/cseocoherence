@@ -3,15 +3,15 @@ import './ComponentPage.scss';
 import { Link } from 'react-router-dom';
 import { Highlight } from '@uifabric/example-app-base';
 import './HomePage.scss';
-import ChromeHeaderJPG from '../assets/header/Chrome-header.jpg';
-import HeaderWireframeJPG from '../assets/header/header-wireframe.jpg';
+//import ChromeHeaderPNG from '../assets/header/header-icon.png';
+import HeaderWireframePNG from '../assets/header/header-ui.png';
 
 const Header = () => {
 
   return (
     <div className="PageContent">
 
-      <div className="GlobalHeader"><b>Coherence</b>
+      <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b>
         {/* <span className="Developer-quicklinks">Developer
             <br/> <p className="spacing">Get Fabric React</p>
             <br/> <p className="no-spacing">Get Fabric Core</p>
@@ -29,14 +29,14 @@ const Header = () => {
         <div className="Intro"><p>The CSEO header is a blend of the Fabric and Fluent UI styling.</p></div>
         {/* Header Placeholder for more content */}
         <div className="HeaderImage-placeholder">
-          <img src={HeaderWireframeJPG} alt="Illustration of Header on wireframe layout." />
+          {/* <img src={ChromeHeaderPNG} alt="Illustration of Header on wireframe layout." /> */}
         </div>
         <div className="med-spacing"></div>
         <div className="Content">
-          <p className="font-medium">The header tool located in our Figma UI kit allows you to expand or contract from left to
+          {/* <p className="font-medium">The header tool located in our Figma UI kit allows you to expand or contract from left to
           right to fit the width of your window. Simply select the left or right bounding box and drag to the width that works
-         for your layout. </p>
-          <img className="image-width" src={ChromeHeaderJPG} alt="Illustration of Chrome Header." />
+         for your layout. </p> */}
+          <img className="image-width" src={HeaderWireframePNG} alt="Illustration of Chrome Header." />
         </div>
         <div className="med-spacing"></div>
 

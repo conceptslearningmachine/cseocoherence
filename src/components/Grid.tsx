@@ -3,13 +3,14 @@ import './ComponentPage.scss';
 //import { Link } from 'react-router-dom';
 import './HomePage.scss';
 import GridLegendJPG from '../assets/grid/grid-legend.jpg';
-import GridBreakbointJPG from '../assets/grid/grid-breakpoints.jpg';
+import GridBreakboint1368 from '../assets/grid/breakpoint-1368.png';
+import GridBreakboint1838 from '../assets/grid/breakpoint-1838.png';
 const Grid = () => {
 
     return (
         <div className="PageContent">
 
-            <div className="GlobalHeader"><b>Coherence</b>
+            <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b>
                 {/* <span className="Developer-quicklinks">Developer
             <br/> <p className="spacing">Get Fabric React</p>
             <br/> <p className="no-spacing">Get Fabric Core</p>
@@ -32,9 +33,17 @@ const Grid = () => {
                 <div className="GridImage-placeholder">
                     <img src={GridLegendJPG} alt="Illustration of Grid Legend." />
                 </div>
+                
                 <div className="med-spacing"></div>
                 <div className="GridImage-placeholder">
-                    <img className="image-width-90" src={GridBreakbointJPG} alt="Illustration of Grid Breakpoint." />
+                <p><b>1368 px</b></p>
+                    <img className="image-width-90" src={GridBreakboint1368} alt="Illustration of Grid Breakpoint." />
+                </div>
+                
+                <div className="med-spacing"></div>
+                <div className="GridImage-placeholder">
+                <p><b>1838 px</b></p>
+                    <img className="image-width-90" src={GridBreakboint1838} alt="Illustration of Grid Breakpoint." />
                 </div>
             </div>
         </div>

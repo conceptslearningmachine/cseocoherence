@@ -2,7 +2,7 @@
 $sse-font: 'Segoe UI';
 $sse-color: #333333;
 $component-page-header-size:38px;
-$cseo-brand-primary: #11CE0D;
+$cseo-brand-primary: #00CC6A;
 
 p {
     line-height: normal;
@@ -16,10 +16,16 @@ p {
     color:$cseo-brand-primary;
     padding: 40px 0px 0 40px;
 }
+.global-links{
+    color: $cseo-brand-primary;
+}
 .SubHeader {
     font-size: 20px;
     font-weight: 600;
     padding: 0px 0px 30px 0px;
+}
+.semibold{
+    font-weight: 600;
 }
 .PageHeader {
     flex-grow: 1;
@@ -73,6 +79,11 @@ p {
     color: white;
     font-weight: bold;
 }
+.Page-cseo-header {
+    display: inline;
+    color: #333333;
+    font-weight: bold;
+}
 .Intro {
     margin: 20px 300px 20px 0px;
     line-height: normal;
@@ -114,6 +125,8 @@ p {
     font-size: 16px;
     display: flex;
     float: right;
+    font-weight: 600;
+    text-decoration: underline;
     padding: 0 30px 50px 0;
     color: $cseo-brand-primary;
 }

@@ -9,7 +9,7 @@ const Color = () => {
     return (
         <div className="PageContent">
 
-            <div className="GlobalHeader"><b>Coherence</b>
+            <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b>
                 {/* <span className="Developer-quicklinks">Developer
             <br/> <p className="spacing">Get Fabric React</p>
             <br/> <p className="no-spacing">Get Fabric Core</p>
@@ -27,14 +27,75 @@ const Color = () => {
                 <div className="Intro"><p>CSEO Design System currently utilizes Fluent for Fabric. The library currently includes 9 theme colors and 11 neutral colors. Each has helper classes for text,
                 background, border, and hover states. When selecting colors, refer to the color accessibility guidance (PDF) to
          ensure that your text can be ready by everyone. If you need to customize your theme, see the Theme generator.</p></div>
-                {/* Chrome  palette section */}
-                <div className="SubHeader">Chrome</div>
-                <div className="Content">
-                <p>CSEO design system uses Fluent's bright theme color ramp which consists of 8 shades of light gray colors and pure white.
-            These colors are applied only on backgrounds according a defined hierarchy.</p>
-            </div>
 
-                 {/* Color Palette for Neutrals */}
+                <div className="med-spacing"></div>
+                {/* Chrome  palette section */}
+                <div className="SubHeader">Text</div>
+                <div className="Content">
+                    <p>CSEO design system uses Fabric's text theme color ramp which consists of 8 shades of shades of gray colors. We’ve included
+                    three hyperlink colors to align with accessibililty.</p>
+                </div>
+
+                {/* Color Palette for text */}
+                <div className="palette-spacing">
+                    <div className="color-palette-neutral">
+                        <div className="color-palette primary"></div>
+                        <ul className="color-info">
+                            <li>Primary</li>
+                            <li>#333333</li>
+                        </ul>
+                    </div>
+                    <div className="color-palette-neutral">
+                        <div className="color-palette secondary"></div>
+                        <ul className="color-info">
+                            <li>Secondary</li>
+                            <li>#666666</li>
+                        </ul>
+                    </div>
+                    <div className="color-palette-neutral">
+                        <div className="color-palette disabled"></div>
+                        <ul className="color-info">
+                            <li>Disabled Text caption on gray button</li>
+                            <li>#BEBBB8</li>
+                        </ul>
+                    </div>
+                    <div className="color-palette-neutral">
+                        <div className="color-palette hyperlink000"></div>
+                        <ul className="color-info">
+                            <li>Hyperlink</li>
+                            <li>#0078D4</li>
+                        </ul>
+                    </div>
+                    <div className="color-palette-neutral">
+                        <div className="color-palette hyperlink100"></div>
+                        <ul className="color-info">
+                            <li>Hyperlink hover</li>
+                            <li>#106EBE</li>
+                        </ul>
+                    </div>
+                    <div className="color-palette-neutral">
+                        <div className="color-palette hyperlink200"></div>
+                        <ul className="color-info">
+                            <li>Hyperlink selected</li>
+                            <li>#005A9E</li>
+                        </ul>
+                    </div>
+                    <div className="color-palette-neutral">
+                        <div className="color-palette hyperlink-disabled"></div>
+                        <ul className="color-info">
+                            <li>Hyperlink disabled</li>
+                            <li>#C8C6C4</li>
+                        </ul>
+                    </div>
+                </div>
+
+                 {/* Chrome  palette section */}
+                 <div className="SubHeader">Chrome</div>
+                <div className="Content">
+                    <p>CSEO design system uses Fluent's bright theme color ramp which consists of 8 shades of light gray colors and pure white.
+            These colors are applied only on backgrounds according a defined hierarchy.</p>
+                </div>
+                {/* Color Palette for Neutrals */}
                 <div className="palette-spacing">
                     <div className="color-palette-neutral">
                         <div className="color-palette light000"></div>
@@ -101,64 +162,8 @@ const Color = () => {
                     </div>
                 </div>
 
-
-
-                {/* Chrome  palette section */}
-                <div className="SubHeader">Text</div>
-                <div className="Content">
-                <p>CSEO design system uses Fabric's text theme color ramp which consists of 8 shades of shades of gray colors. We’ve included 
-                    three hyperlink colors to align with accessibililty.</p>
-                </div>
-                {/* Color Palette for text */}
-                <div className="palette-spacing">
-                    <div className="color-palette-neutral">
-                        <div className="color-palette primary"></div>
-                        <ul className="color-info">
-                            <li>Primary</li>
-                            <li>#333333</li>
-                        </ul>
-                    </div>
-                    <div className="color-palette-neutral">
-                        <div className="color-palette secondary"></div>
-                        <ul className="color-info">
-                            <li>Secondary</li>
-                            <li>#666666</li>
-                        </ul>
-                    </div>
-                    <div className="color-palette-neutral">
-                        <div className="color-palette disabled"></div>
-                        <ul className="color-info">
-                            <li>Disabled</li>
-                            <li>#A6A6A6</li>
-                        </ul>
-                    </div>
-                    <div className="color-palette-neutral">
-                        <div className="color-palette hyperlink000"></div>
-                        <ul className="color-info">
-                            <li>Hyperlink</li>
-                            <li>#0078D4</li>
-                        </ul>
-                    </div>
-                    <div className="color-palette-neutral">
-                        <div className="color-palette hyperlink100"></div>
-                        <ul className="color-info">
-                            <li>Hyperlink</li>
-                            <li>#106EBE</li>
-                        </ul>
-                    </div>
-                    <div className="color-palette-neutral">
-                        <div className="color-palette hyperlink200"></div>
-                        <ul className="color-info">
-                            <li>Hyperlink</li>
-                            <li>#005A9E</li>
-                        </ul>
-                    </div>
-                </div>
-
-
-
-                 {/* Icons palette section */}
-                 <div className="SubHeader">Icons</div>
+                {/* Icons palette section */}
+                <div className="SubHeader">Icons</div>
                 {/* Color Palette for Icons */}
                 <div className="palette-spacing">
                     <div className="color-palette-neutral">
@@ -220,9 +225,15 @@ const Color = () => {
                 </div>
 
 
-                                {/* Data viz  palette section */}
-                                <div className="SubHeader">Data Visualization</div>
+                {/* Data viz  palette section */}
+                <div className="SubHeader">Color and data visualizations</div>
+
                 {/* Color Palette for data viz */}
+                <div className="palette-spacing"></div>
+
+                 {/* Data viz  palette section */}
+                 <div className="SubHeader">Color and accessibililty</div>
+                {/* Color Palette for acessibility */}
                 <div className="palette-spacing">
 
                 </div>

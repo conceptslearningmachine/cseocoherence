@@ -3,17 +3,14 @@ import './ComponentPage.scss';
 import { Link } from 'react-router-dom';
 import { Highlight } from '@uifabric/example-app-base';
 import './HomePage.scss';
-import NavStatesJPG from '../assets/nav/nav-states.jpg';
-import NavExpandedJPG from '../assets/nav/nav-expanded-states.jpg';
-import NavWireframeJPG from '../assets/nav/nav-wireframe.jpg';
-import NavWireframeExpandedJPG from '../assets/nav/nav-wireframe-expanded.jpg';
+import NavExpandedCollapsed from '../assets/nav/nav-collapsed-expanded.png';
 
 const Navigation = () => {
 
     return (  
         <div className="PageContent">
           
-         <div className="GlobalHeader"><b>Coherence</b> 
+         <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b> 
          {/* <span className="Developer-quicklinks">Developer
             <br/> <p className="spacing">Get Fabric React</p>
             <br/> <p className="no-spacing">Get Fabric Core</p>
@@ -31,19 +28,7 @@ const Navigation = () => {
            In larger configurations, the Nav is always on-screen, usually on the left of the view. In smaller configurations, the Nav may
           collapse into a skinnier version or be completely hidden until the user taps an icon.</p></div>
         {/* Navigation Placeholder for more content */}
-        <p className="font-medium"><b>Navigation collapsed</b></p>
-          <img src={NavWireframeJPG} alt="Illustration of Grid Legend." />
-          <br/>
-          <div className="med-spacing"></div>
-          <img src={NavStatesJPG} alt="Illustration of Grid Legend." />
-          <br/>
-          <div className="med-spacing"></div>
-          <p className="font-medium"><b>Navigation expanded</b></p>
-          <img src={NavWireframeExpandedJPG} alt="Illustration of Grid Legend." />
-          <br/>
-          <div className="med-spacing"></div>
-          <img className="image-width-75" src={NavExpandedJPG} alt="Illustration of Grid Legend." />
-          
+          <img src={NavExpandedCollapsed} alt="Illustration of Nav Collapsed." />
           <div className="med-spacing"></div>
           <div className="med-spacing"></div>
 

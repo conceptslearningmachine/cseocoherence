@@ -3,13 +3,14 @@ import './ComponentPage.scss';
 //import { Link } from 'react-router-dom';
 import './HomePage.scss';
 import './Typography.scss';
-
+import FontRampGreen from '../assets/type/green-font-ramp.png';
+import FontRamp from '../assets/type/font-ramp.png';
 const Typography = () => {
 
   return (
     <div className="PageContent">
 
-      <div className="GlobalHeader"><b>Coherence</b>
+      <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b>
         {/* <span className="Developer-quicklinks">Developer
             <br/> <p className="spacing">Get Fabric React</p>
             <br/> <p className="no-spacing">Get Fabric Core</p>
@@ -24,13 +25,22 @@ const Typography = () => {
 
         </div>
         {/* Typography Intro w/ image Section */}
-        <div className="Intro">CSEO has integrated the Fluent type ramp for our design language. Each class sets the text size along with a default weight.</div>
+        <div className="Intro">Our font family is Segoe UI. The typeramp created for the CSEO Design System 
+        uses some of the text sizes from Fabric, while aligning closer to the M365 typography with text weights. 
+        This means that each class sets the font type, text size, and text weight.</div>
 
         <div className="med-spacing"></div>
         <div className="med-spacing"></div>
-        
+
         <div className="TypographyImage-placeholder">
-          <table>
+
+        <img src={FontRampGreen} alt="Illustration of Green Font ramp." />
+        <div className="SubHeader">Download fonts</div>
+        <a href="" className="global-links" target="_blank"> Segoe UI</a>
+        <div className="med-spacing"></div>
+        <div className="SubHeader">Type ramp</div>
+        <img src={FontRamp} alt="Illustration of a general font ramp." />
+          {/* <table>
             <thead></thead>
             <tbody>
               <tr className="type38">
@@ -70,7 +80,9 @@ const Typography = () => {
                 <td className="type-col-2">Segoe UI 10 regular</td>
               </tr>
             </tbody>
-          </table>
+          </table> */}
+
+
         </div>
       </div>
     </div>
