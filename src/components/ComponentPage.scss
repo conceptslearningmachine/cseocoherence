@@ -28,7 +28,7 @@ p {
 .SubHeader {
     font-size: 20px;
     font-weight: 600;
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 20px 0px;
 }
 .semibold{
     font-weight: 600;
@@ -76,12 +76,15 @@ p {
     color: white;
     text-decoration: none;
 }
+.Homepage-contact-link:hover {
+    color: #c3c3c3;
+}
 .Homepage-desc {
     font-size: 16px;
     font-weight: 500;
     display: inline-flex;
     width: 50%;
-    padding: 0 50px 0 60px;
+    padding: 10px 50px 0 60px;
     line-height: normal;
 }
 .Home-cseo-header {
@@ -129,7 +132,7 @@ p {
 .Designer-steps {
     font-size: 18px;
     font-weight: 700;
-    padding: 50px 0px 30px 0px;
+    padding: 50px 0px 20px 0px;
 }
 .contact-quicklinks {
     font-size: 16px;
@@ -175,6 +178,9 @@ p {
 .image-width-90 {
     width: 90%;
 }
+.Image-spacing{
+    padding: 20px 0 0 0;    
+}
 .resources-spacing {
     margin:30px 200px 50px 0;
  }
@@ -196,6 +202,7 @@ p {
     color: $cseo-brand-primary;
     font-size: 18px;
     font-weight: normal;
+    padding: 10px 0 0 0;
 }
 
 

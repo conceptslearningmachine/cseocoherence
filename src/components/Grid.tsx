@@ -31,13 +31,13 @@ const Grid = () => {
                 <div className="med-spacing"></div>
                 <div className="GridImage-placeholder">
                 <p><b>1368 px</b></p>
-                    <img className="image-width-90" src={GridBreakboint1368} alt="Illustration of Grid Breakpoint." />
+                    <img className="image-width-75" src={GridBreakboint1368} alt="Illustration of Grid Breakpoint." />
                 </div>
                 
                 <div className="med-spacing"></div>
                 <div className="GridImage-placeholder">
                 <p><b>1838 px</b></p>
-                    <img className="image-width-90" src={GridBreakboint1838} alt="Illustration of Grid Breakpoint." />
+                    <img className="image-width-75" src={GridBreakboint1838} alt="Illustration of Grid Breakpoint." />
                 </div>
             </div>
         </div>

@@ -34,31 +34,19 @@ const DesignGetStarted = () => {
                     <div className="Designer-steps">Step 2: Sign Up</div>
                     <p>A dialog will ask you to <b>Sign in</b>, or <b>Sign up</b>. Select <b>Sign up</b> in the bottom right to create your account.</p>
                     <div className="Design-onboarding-image">
-                        <img
-                            src={FigmaLoginJPG}
-                            alt="Illustration of login view in Figma."
-                        />
+                        <div className="Image-spacing"><img src={FigmaLoginJPG} alt="Illustration of login view in Figma." /></div>
                     </div>
                     <div className="Designer-steps">Step 3: Follow the onboarding modals</div>
                     <div className="Design-onboarding-image">
-                        <img
-                            src={WelcomeFigmaJPG}
-                            alt="Illustration of welcome dialog view in Figma."
-                        />
+                    <div className="Image-spacing"><img src={WelcomeFigmaJPG} alt="Illustration of welcome dialog view in Figma." /></div>
                     </div>
                     <div className="Designer-steps">Step 4: Select View all teams in the left side bar</div>
                     <div className="Design-onboarding-image">
-                        <img
-                            src={LeftNavFigmaJPG}
-                            alt="Illustration of left side bar view in Figma."
-                        />
+                    <div className="Image-spacing"><img src={LeftNavFigmaJPG} alt="Illustration of left side bar view in Figma."  /></div>
                     </div>
                     <div className="Designer-steps">Step 5: Scroll down until you see SSE Design. Click on Request to join. </div>
                     <div className="Design-onboarding-image">
-                        <img
-                            src={MicrosoftOrgFigmaJPG}
-                            alt="Illustration of Microsoft Organization view in Figma."
-                        />
+                    <div className="Image-spacing"><img src={MicrosoftOrgFigmaJPG} alt="Illustration of Microsoft Organization view in Figma." /></div>
                     </div>
                     <div className="Designer-steps">Step 6: Describe what team that you are on and why you need access</div>
 
@@ -68,19 +56,13 @@ const DesignGetStarted = () => {
             team to mess with their file. </p>
 
                     <div className="Design-onboarding-image">
-                        <img
-                            src={RequestJoinFigmaJPG}
-                            alt="Illustration of how to request to join SSE channel in Figma."
-                        />
+                    <div className="Image-spacing"><img src={RequestJoinFigmaJPG} alt="Illustration of how to request to join SSE channel in Figma." /></div>
                     </div>
                     <div className="Designer-steps">Step 7: Wait until the owner of the Figma channel approves you</div>
                     <p> Once you  are approved, you will now see the channel under the sidebar. </p>
 
                     <div className="Design-onboarding-image">
-                        <img
-                            src={RequestJoinFigmaJPG}
-                            alt="Illustration of how to request to join SSE channel in Figma."
-                        />
+                    <div className="Image-spacing"> <img src={RequestJoinFigmaJPG} alt="Illustration of how to request to join SSE channel in Figma." /></div>
                     </div>
                     <div className="Designer-steps">Step 8: Set up your local fonts </div>
                     <p> To use your local/system fonts in Figma, you have two options:

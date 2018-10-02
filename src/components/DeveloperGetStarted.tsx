@@ -86,12 +86,16 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
             ],
             linkIsSelected: [
                 {
-
+                    selectors: {
+                      ':before': {
+                        borderBottom: '2px solid #00CC6A'
+                      }
+                    }
                 }
             ],
             text: [
                 {
-                    color: 'white'
+                    color: '#152935'
                 }
             ],
             count: [
@@ -127,6 +131,8 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
             <div>
                 {/* ReactJS Intro w/ code */}
                 <div className="Intro">
+                <div className="med-spacing"></div>
+                <div className="med-spacing"></div>
                     <p>
                         The Office UI Fabric Library provides front-end develoers and engineers with a collection of reusable
                          components in ReactJS to build applications. Adopting the library enables developers to use consistent markup,
@@ -171,6 +177,7 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                     <p></p>
                 </div>
                 <div className="Intro">
+                <div className="med-spacing"></div>
                     <div className="SubHeader">Component Usage</div>
                     <p><a href="https://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App" target="_blank">Here is
             a step by step tutorial</a> on how to build a simple React app with an Office UI Fabric React component.</p>
@@ -198,7 +205,7 @@ ReactDOM.render(<MyPage />, document.body.firstChild);`}
                         </Highlight>
                     </p>
                 </div>
-                <p></p>
+                <div className="med-spacing"></div>
                 <div className="SubHeader">Icon Usage</div>
                 <div className="Content">
                     <p>By default, the Fabric icons are not added to your bundle, in order to save bytes for scenarios
@@ -219,6 +226,8 @@ initializeIcons(/* optional base url */);`}</Highlight>
         return (
             <div>
                 <div className="Intro">
+                <div className="med-spacing"></div>
+                <div className="med-spacing"></div>
                     <p>Fabric Core contains the core styles used across all aspects of Fabric including icons, type, fonts,
                     colors, the grid, etc. This is a separate project from Office UI Fabric React,
             which contains the React components.</p>

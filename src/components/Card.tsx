@@ -19,8 +19,7 @@ const Card = () => {
 
          <div className="PageContent-spacing">
          <div className="PageHeader"><h1>Card</h1> 
-         
-         </div>
+         </div>  
         {/* Card Intro w/ image Section */}
          <div className="Intro"><p>Brief introduction about the SSE card system, from where it originates (M365 card) 
          and how it has been adopted to fit SSE needs. About 4-5 lines of text. Brief introduction about the SSE card system, 

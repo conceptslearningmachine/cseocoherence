@@ -22,10 +22,9 @@ const App = () => (
     <div className="app">
       <style>{styles}</style>
       <Navbar />
-       <Home/> 
       <Switch>
         {/* Defaut route */}
-        <Route path="/" component={Home} exact={true} />
+        <Route exact path="/" component={Home} />
         {/* General / Informational pages */}
         <Route path="/overview" component={Overview} />
         <Route path="/updates" component={Updates} />
