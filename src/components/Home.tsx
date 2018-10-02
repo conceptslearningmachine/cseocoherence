@@ -11,7 +11,7 @@ const Home = () => {
             </div>
             
             </div>
-            <div className="Homepage-title">Design System
+            <div className="Homepage-title"><div>Design System</div>
             <div className="Homepage-desc">Resources and guidance for using the CSEO Design System in product design and development.</div>
             <div className="quicklinks"><span><Link to="/DesignGetStarted">For Designers</Link></span><br/><br/>
             <span><Link to="/DeveloperGetStarted">For Developers</Link></span>

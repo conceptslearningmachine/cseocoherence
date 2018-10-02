@@ -22,7 +22,7 @@ const App = () => (
     <div className="app">
       <style>{styles}</style>
       <Navbar />
-        
+       <Home/> 
       <Switch>
         {/* Defaut route */}
         <Route path="/" component={Home} exact={true} />
