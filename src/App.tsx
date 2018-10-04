@@ -24,6 +24,7 @@ const App = () => (
       <Navbar />
       <Switch>
         {/* Defaut route */}
+        <Route exact path="/cseo-design" component={Home} />
         <Route exact path="/" component={Home} />
         {/* General / Informational pages */}
         <Route path="/overview" component={Overview} />

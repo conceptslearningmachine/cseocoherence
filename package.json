@@ -2,12 +2,13 @@
   "name": "sse-studio-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://microsoft.github.io/cseo-design/",
+  "homepage": "https://marygans.github.io/cseo-design/",
   "dependencies": {
     "@petejkim/react-scripts-ts-sass": "2.15.2",
     "@types/react-router-dom": "^4.3.1",
     "@types/react-sticky": "^6.0.2",
     "@uifabric/example-app-base": "^6.7.2",
+    "gh-pages": "^2.0.1",
     "highlight-ts": "^9.12.1-1",
     "office-ui-fabric-react": "^6.70.0",
     "react": "^16.5.1",
@@ -21,8 +22,9 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "eject": "react-scripts-ts eject"
-    
   },
   "devDependencies": {
     "@types/jest": "^23.3.2",
