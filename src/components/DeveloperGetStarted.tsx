@@ -134,7 +134,7 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                 <div className="med-spacing"></div>
                 <div className="med-spacing"></div>
                     <p>
-                        The Office UI Fabric Library provides front-end develoers and engineers with a collection of reusable
+                        The Office UI Fabric Library provides front-end developers and engineers with a collection of reusable
                          components in ReactJS to build applications. Adopting the library enables developers to use consistent markup,
                           styles, and behavior within their applications.
               <p></p>

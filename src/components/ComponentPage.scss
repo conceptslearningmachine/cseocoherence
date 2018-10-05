@@ -36,7 +36,6 @@ p {
 .PageHeader {
     flex-grow: 1;
     padding: 0px 0px 0px 0px;
-    overflow-y: scroll;
     display: flex;
     flex-wrap: wrap;
     color: $sse-color;
@@ -139,9 +138,11 @@ p {
     display: flex;
     float: right;
     font-weight: 600;
-    text-decoration: underline;
     padding: 0 30px 50px 0;
     color: $cseo-brand-primary;
+    a {
+        text-decoration: none;
+    }
 }
 .Developer-steps {
     font-size: 18px;

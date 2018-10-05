@@ -90,7 +90,7 @@ h2 {
   padding: 4px 0 4px 50px;;
 }
 .cseo-icon {
-  margin: 20px 30px 0px 30px;
+  margin: 36px 30px 0px 30px;
 }
 .nav-header {
   font-size:11px;
