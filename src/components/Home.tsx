@@ -17,8 +17,6 @@ const Home = () => {
             <span><Link to="/DeveloperGetStarted">For Developers</Link></span>
                 </div>
             </div>
-            
-
         </div>
     );
 };

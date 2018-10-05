@@ -57,7 +57,7 @@ h2 {
   padding:0;
 }
 .nav-link, .sub-link {
-  padding: 20px 0 0 5px;
+  padding: 18px 0 0 5px;
   list-style-type: none;
 }
 .nav-link a, sub-link a {

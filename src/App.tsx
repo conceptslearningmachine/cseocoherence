@@ -12,7 +12,9 @@ import Iconography from './components/Iconography';
 import Typography from './components/Typography';
 import Card from './components/Card'
 import Header from './components/Header'
-import Navigation from './components/Navigation'
+import Navigation from './components/Navigation';
+import FooterNav from './components/FooterNav';
+import FooterMain from './components/FooterMain';
 import Navbar from './Navbar'
 import styles from "./styles";
 
@@ -43,6 +45,8 @@ const App = () => (
         <Route path="/patterns/header" component={Header} />
         <Route path="/patterns/navigation" component={Navigation} />
       </Switch>
+      <FooterNav/>
+      <FooterMain/>
     </div>
   </BrowserRouter>
 );
