@@ -136,8 +136,11 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                     <p>
                         The Office UI Fabric Library provides front-end developers and engineers with a collection of reusable
                          components in ReactJS to build applications. Adopting the library enables developers to use consistent markup,
-                          styles, and behavior within their applications.
-              <p></p>
+                          styles, and behavior within their applications. 
+                          <p>Not developing using ReactJS? No problem. <a href="" target="_blank">Fabric Core</a> is a responsive, mobile-first collection of styles and tools designed to make it quick and simple for you to create web experiences.
+                          It contains the core styles used across all aspects of Fabric including icons, type, fonts,
+                    colors, the grid, etc.</p>
+              <p></p>f
                         To get started, we recommend installing the following tools:
 
 
