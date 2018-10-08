@@ -134,13 +134,18 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                 <div className="med-spacing"></div>
                 <div className="med-spacing"></div>
                     <p>
-                        The Office UI Fabric Library provides front-end developers and engineers with a collection of reusable
+
+                        <p>The CSEO design system utilizes the <a href="https://developer.microsoft.com/en-us/fabric#/get-started" target="_blank">Office UI Fabric ReactJS Library</a> which provides front-end developers and engineers with a collection of reusable
                          components in ReactJS to build applications. Adopting the library enables developers to use consistent markup,
-                          styles, and behavior within their applications. 
-                          <p>Not developing using ReactJS? No problem. <a href="" target="_blank">Fabric Core</a> is a responsive, mobile-first collection of styles and tools designed to make it quick and simple for you to create web experiences.
+                          styles, and behavior within their applications. </p>
+                          <div className="med-spacing"></div>
+                          <div className="SubHeader">Not developing using ReactJS?</div>
+                          No problem! <a href="https://github.com/OfficeDev/office-ui-fabric-core" target="_blank">Fabric Core</a> is a responsive, mobile-first collection of styles and tools designed to make it quick and simple for you to create web experiences.
                           It contains the core styles used across all aspects of Fabric including icons, type, fonts,
-                    colors, the grid, etc.</p>
-              <p></p>f
+                    colors, the grid, etc.
+                    <div className="med-spacing"></div>
+                    <div className="SubHeader">Installation</div>
+
                         To get started, we recommend installing the following tools:
 
 
@@ -232,9 +237,11 @@ initializeIcons(/* optional base url */);`}</Highlight>
                 <div className="med-spacing"></div>
                 <div className="med-spacing"></div>
                     <p>Fabric Core contains the core styles used across all aspects of Fabric including icons, type, fonts,
-                    colors, the grid, etc. This is a separate project from Office UI Fabric React,
-            which contains the React components.</p>
-                    <p className="ComponentPage-inline">Add the following line to the <code>&lt;head&gt;</code> of your webpage:</p>
+                    colors, the grid, etc. Reference the latest release of Fabric using the CDN below.</p>
+                    <p><b>Note:</b> This is a separate project from Office UI Fabric React, which contains reusable ReactJS components.</p>
+                    <div className="med-spacing"></div>
+                    <div className="SubHeader">Installation</div>
+                    <div className="ComponentPage-inline">To use the CDN reference, copy and add the following line to the <code className="Code-inline">&lt;head&gt;</code> of your HTML webpage:</div>
                     <p></p>
                     <p className="ComponentPage-code">
                         <Highlight className="html">
@@ -243,34 +250,42 @@ fabric/office-ui-fabric-core/9.6.0/css/fabric.min.css">
 `}</Highlight>
                     </p>
                 </div>
+                <div className="med-spacing"></div>
                 <div className="SubHeader">Other ways to get Fabric Core</div>
                 <div className="Content">
-                    <p>
                         You can{' '}
-                        <a className="" href="https://github.com/OfficeDev/office-ui-fabric-core/releases">
+                        <a className="" href="https://github.com/OfficeDev/office-ui-fabric-core/releases" target="_blank">
                             download a copy of Fabric for your project
             </a>{' '}
                         or{' '}
                         <a
                             className=""
-                            href="https://github.com/OfficeDev/office-ui-fabric-react/wiki#using-fabric-react"
-                        >
+                            href="https://github.com/OfficeDev/office-ui-fabric-react/wiki#using-fabric-react" target="_blank">
                             add it through a package manager
             </a>. You can also{' '}
                         <a
                             className=""
-                            href="https://github.com/OfficeDev/office-ui-fabric-react/wiki#building-the-repo"
-                        >
+                            href="https://github.com/OfficeDev/office-ui-fabric-react/wiki#building-the-repo" target="_blank">
                             build your own copy from the source code
             </a>.
-          </p>
                     <p></p>
+                    <div className="med-spacing"></div>
                     <div className="SubHeader">Fabric Core Usage</div>
-                    <p>Reference core Fabric styles. Add the <code>ms-Fabric</code> class to a containing element, such as <code>&lt;body&gt;</code>, to set the font-family for all Fabric typography classes used within that element.</p>
+                    Reference core Fabric styles. For example, add the <code className="Code-inline">ms-Fabric</code> class to a containing element, such as <code className="Code-inline">&lt;body&gt;</code>, to set the font-family for all Fabric typography classes used within that element.
                     <p className="ComponentPage-code">
                         <Highlight>{`<body class="ms-Fabric">
   <span class="ms-font-su ms-fontColor-themePrimary">Big blue text</span>
 </body>`}</Highlight></p>
+
+                <div className="med-spacing"></div>
+                <div className="SubHeader">Icon Usage</div>
+                To use a Fabric icon, include the "i" element on your page, and then reference the appropriate classes. You can control the size of the icon by changing the font size. 
+                <p>For example, the following code shows how to make an extra-large table icon that uses the themePrimary (#0078d7) color:
+                <p className="ComponentPage-code">
+                        <Highlight>{`<i class="ms-Icon ms-font-xl ms-Icon--Table ms-fontColor-themePrimary"></i>`}</Highlight></p>
+                </p>
+                To find more icons that are available in Office UI Fabric, use the search feature on the <a href="https://developer.microsoft.com/en-us/fabric#/styles/icons" target="_blank">Icons page</a>. When you find an icon to use in your add-in, 
+                be sure to prefix the icon name with <code className="Code-inline"> ms-Icon--</code>, as shown in the example above.
                 </div>
             </div>
         );
