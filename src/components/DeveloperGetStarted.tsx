@@ -37,7 +37,10 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
             componentPageTab = this._getReactTab();
         } else if (this.state.selectedKey === 'gettingStartedCorePage') {
             componentPageTab = this._getCoreTab();
-        } else {
+        }else if (this.state.selectedKey === 'gettingStartedOthersPage') {
+            componentPageTab = this._getOtherFrameworksTab();
+        }
+         else {
             componentPageTab = this._getCoreTab();
         }
 
@@ -122,6 +125,7 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
             >
                 <PivotItem className="ComponentPage-pivot" headerText="Fabric ReactJS" itemKey="gettingStartedReactPage" />
                 <PivotItem className="ComponentPage-pivot" headerText="Fabric Core" itemKey="gettingStartedCorePage" />
+                <PivotItem className="ComponentPage-pivot" headerText="Other Frameworks" itemKey="gettingStartedOthersPage"/>
             </Pivot>
         );
     }
@@ -236,8 +240,9 @@ initializeIcons(/* optional base url */);`}</Highlight>
                 <div className="Intro">
                 <div className="med-spacing"></div>
                 <div className="med-spacing"></div>
-                    <p>Fabric Core contains the core styles used across all aspects of Fabric including icons, type, fonts,
-                    colors, the grid, etc. Reference the latest release of Fabric using the CDN below.</p>
+                    <p>To incoporate the CSEO design system into your projects, one option is to utilize <a href="" target="_blank">Fabric Core</a>. 
+                    Fabric Core contains the core styles used across all aspects of Fabric including icons, type, fonts,
+                    colors, the grid, etc. Fabric core is framework independent as both Both Fabric React and Fabric JS use Fabric Core. Reference the latest release of Fabric using the CDN below.</p>
                     <p><b>Note:</b> This is a separate project from Office UI Fabric React, which contains reusable ReactJS components.</p>
                     <div className="med-spacing"></div>
                     <div className="SubHeader">Installation</div>
@@ -286,6 +291,38 @@ fabric/office-ui-fabric-core/9.6.0/css/fabric.min.css">
                 </p>
                 To find more icons that are available in Office UI Fabric, use the search feature on the <a href="https://developer.microsoft.com/en-us/fabric#/styles/icons" target="_blank">Icons page</a>. When you find an icon to use in your add-in, 
                 be sure to prefix the icon name with <code className="Code-inline"> ms-Icon--</code>, as shown in the example above.
+                </div>
+            </div>
+        );
+    }
+
+    private _getOtherFrameworksTab(): JSX.Element | undefined {
+        return (
+            <div>
+                <div className="Intro">
+                <div className="med-spacing"></div>
+                <div className="med-spacing"></div>
+                The CSEO Design System supports ReactJS and SCSS partials as core parts of the product in an effort to stay aligned with other product teams within Microsoft,  while also recognizing that we need to tailor existing work to serve the specific needs of our customers.. 
+                You can still build components even if you're using a different frameworks such as Angular.
+                <div className="med-spacing"></div>
+                <div className="med-spacing"></div>
+                <p>
+                   
+                </p>     
+                </div>
+                <div className="Content">
+                <div className="SubHeader">Fabric JS</div>
+                One option is to utilize <a href="https://github.com/OfficeDev/office-ui-fabric-js" target="_blank">Fabric JS</a>, a JavaScript front-end framework 
+                that provides visuals-focused <a href="https://github.com/OfficeDev/office-ui-fabric-js/blob/master/ghdocs/COMPONENTSLIST.md" target="_blank">components</a> to extend, 
+                re-work and use in your application. These components are highly focused on the styling (CSS) rather than the functionality (JavaScript), so you can feel free to reimplement the component in the framework of your choice. 
+                <p>For a quick start, you can reference the latest release of Fabric from a CDN or clone and build locally. Once you've got Fabric JS added to your project,
+                     look at the <a href="https://github.com/OfficeDev/office-ui-fabric-js/blob/master/ghdocs/COMPONENTSLIST.md" target="_blank">component list</a> for documentation pertaining to each available component. </p>
+                <p>If you'd like to get Fabric through a package manager such as Bower, npm, or NuGet, check out the <a href="https://github.com/OfficeDev/office-ui-fabric-js/blob/master/ghdocs/PACKAGES.md" target="_blank">package manager docs</a>.</p>
+                <p><b>Note:</b> Fabric JS uses styles from the Office UI Fabric Core project. </p>
+                <div className="med-spacing"></div>
+                <div className="SubHeader">Wrapping Fabric components with Angular components</div>  
+                If your team is currently using Angular 2, consider creating an Office Add-in as a single page application and using Fabric components in your add-in by wrapping them in Angular components. For an example that shows you
+                 how to do this, see <a href="https://github.com/OfficeDev/Word-Add-in-Angular2-StyleChecker" target="_blank">Word Style Checking Add-in Built on Angular</a>. 
                 </div>
             </div>
         );

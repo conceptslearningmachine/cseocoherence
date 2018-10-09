@@ -1,16 +1,14 @@
 import * as React from "react";
 import './ComponentPage.scss';
-import { Link } from 'react-router-dom';
 
 const FooterMain = () => {
 
     return (
          <div className="footer-links">
-              <Link to="/resources">Contact Us</Link>
-              <Link to="/resources">Terms of Use</Link>
-              <Link to="/resources">Privacy and cookies</Link>
-              <Link to="/resources">Trademarks</Link>
-              <Link to="/resources">Safety and eco</Link>
+              <a className="footer-links" href="mailto:ssedesign_coherence@microsoft.com">Contact Us</a>
+              <a className="footer-links" href="https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx" target="_blank">Terms of Use</a>
+              <a className="footer-links" href="https://privacy.microsoft.com/en-US/privacystatement" target="_blank">Privacy and cookies</a>
+              <a  className="footer-links" href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/en-us.aspx" target="_blank">Trademarks</a>
               <p>&copy; Microsoft 2018</p>
 
             </div>
