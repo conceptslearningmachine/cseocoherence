@@ -49,8 +49,8 @@ const Color = () => {
                     <div className="color-palette-neutral">
                         <div className="color-palette disabled"></div>
                         <ul className="color-info">
-                            <li>Disabled Text caption on gray button</li>
-                            <li>#BEBBB8</li>
+                            <li>Disabled text caption on gray button</li>
+                            <li>#A6A6A6</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
@@ -84,7 +84,7 @@ const Color = () => {
                 </div>
 
                  {/* Chrome  palette section */}
-                 <div className="SubHeader">Chrome</div>
+                 <div className="SubHeader">Surfaces</div>
                 <div className="Content">
                     <p>CSEO design system uses Fluent's bright theme color ramp which consists of 8 shades of light gray colors and pure white.
             These colors are applied only on backgrounds according a defined hierarchy.</p>
@@ -157,7 +157,7 @@ const Color = () => {
                 </div>
 
                 {/* Icons palette section */}
-                <div className="SubHeader">Icons</div>
+                <div className="SubHeader">Notifications text and icon colors</div>
                 {/* Color Palette for Icons */}
                 <div className="palette-spacing">
                     <div className="color-palette-neutral">
@@ -192,7 +192,7 @@ const Color = () => {
 
 
                 {/* Alerts  palette section */}
-                <div className="SubHeader">Icons</div>
+                <div className="SubHeader">Notifications background colors</div>
                 {/* Color Palette for alerts */}
                 <div className="palette-spacing">
                     <div className="color-palette-neutral">
@@ -216,20 +216,6 @@ const Color = () => {
                             <li>#DFF6DD</li>
                         </ul>
                     </div>
-                </div>
-
-
-                {/* Data viz  palette section */}
-                <div className="SubHeader">Color and data visualizations</div>
-
-                {/* Color Palette for data viz */}
-                <div className="palette-spacing"></div>
-
-                 {/* Data viz  palette section */}
-                 <div className="SubHeader">Color and accessibililty</div>
-                {/* Color Palette for acessibility */}
-                <div className="palette-spacing">
-
                 </div>
             </div>
         </div>
