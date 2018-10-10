@@ -3,8 +3,9 @@ import './ComponentPage.scss';
 import { Link } from 'react-router-dom';
 import { Highlight } from '@uifabric/example-app-base';
 import './HomePage.scss';
-//import ChromeHeaderPNG from '../assets/header/header-icon.png';
-import HeaderWireframePNG from '../assets/header/header-ui.png';
+import HeaderBlue from '../assets/header/header-blue.png';
+import HeaderBlack from '../assets/header/header-black.png';
+import HeaderGray from '../assets/header/header-gray.png';
 
 const Header = () => {
 
@@ -20,7 +21,9 @@ const Header = () => {
 
         </div>
         {/* Header Intro w/ image Section */}
-        <div className="Intro"><p>The CSEO header is a blend of the Fabric and Fluent UI styling.</p></div>
+        <div className="Intro"><p>The header is always at the top of the application as an identifier for the user to quickly understand which
+           application they are in. The header will include the app name and icons if neccessary. Please contact the Coherence team for further 
+           guidance.</p></div>
         {/* Header Placeholder for more content */}
         <div className="HeaderImage-placeholder">
           {/* <img src={ChromeHeaderPNG} alt="Illustration of Header on wireframe layout." /> */}
@@ -30,8 +33,16 @@ const Header = () => {
           {/* <p className="font-medium">The header tool located in our Figma UI kit allows you to expand or contract from left to
           right to fit the width of your window. Simply select the left or right bounding box and drag to the width that works
          for your layout. </p> */}
-          <img className="image-width" src={HeaderWireframePNG} alt="Illustration of Chrome Header." />
+         <p className="semibold">
+           <div className="sm-spacing">App Theme</div>
+         <img className="image-width" src={HeaderBlue} alt="Illustration of blue Chrome Header." />
+         <div className="sm-spacing">Neutral dark</div>
+         <img className="image-width" src={HeaderBlack} alt="Illustration of black Chrome Header." />
+         <div className="sm-spacing">Neutral Light</div>
+          <img className="image-width" src={HeaderGray} alt="Illustration of gray Chrome Header." />
+          </p>
         </div>
+        <div className="med-spacing"></div>
         <div className="med-spacing"></div>
 
 

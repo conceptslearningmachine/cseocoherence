@@ -18,21 +18,18 @@ const Card = () => {
           </div>
 
          <div className="PageContent-spacing">
-         <div className="PageHeader"><h1>Card</h1> 
+         <div className="PageHeader"><h1>Cards</h1> 
          </div>  
         {/* Card Intro w/ image Section */}
-         <div className="Intro"><p>Brief introduction about the SSE card system, from where it originates (M365 card) 
-         and how it has been adopted to fit SSE needs. About 4-5 lines of text. Brief introduction about the SSE card system, 
-         from where it originates (M365 card) and how it has been adopted to fit SSE needs. About 4-5 lines of text.</p></div>
+         <div className="Intro"><p></p></div>
          <div className="med-spacing"></div>
-         <div className="SubHeader">Card types</div>
          Card with Overflow menu
         <div className="CardImage-spacing"><img src={CardExampleJPG} alt="Illustration showing a Card component." width="400" /></div>
         Card with expand-collapse functionality
         <div className="CardImage-spacing"><img src={CardExampleExpand} alt="Illustration showing a small Card with expand and collapse." width="400" /></div>
-        Card with  external hyperlink to second level view
+        Card with hyperlink to second level view
         <div className="CardImage-spacing"><img src={CardExampleHyperlink} alt="Illustration showing a small Card with an external hyperlink." width="400" /></div>
-        <div className="SubHeader">Card overflow patterns</div>
+        <div className="SubHeader">Overflow patterns</div>
         <div className="CardImage-spacing"><img src={CardExampleDetails} alt="Illustration showing a small Card with overflow and details."  /></div>
 
         {/* Card Code Section */}

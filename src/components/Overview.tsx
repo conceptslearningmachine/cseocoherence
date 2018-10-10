@@ -16,30 +16,29 @@ const Overview = () => {
          
          </div>
         {/* Grid Intro w/ image Section */}
-         <div className="OverviewIntro Content"><p>The CSEO Design System is a product that serves other products, ensuring coherent
-              visuals and interaction patterns across a diverse ecosystem of products. The Coherence team works in partnership 
-              with product teams to provide resources and guidance that ensure coherency and familiarity across our products, 
-              and with Microsoft.</p></div>
+         <div className="OverviewIntro Content"><p>The CSEO Design System ensures coherent experiences across our product ecosystem
+              and is at the heart of modern product-making culture. The Coherence team works in partnership with product teams to 
+              provide resources, guidance, and processes that ensure coherency and familiarity across our products, and with Microsoft.</p></div>
               <div className="med-spacing"></div>
               <div className="Content">
               <b>We benefit</b>
-              <p className="font-medium">Design Systems increase efficiencies and reduce guesswork, allowing teams to move more quickly and confidently 
-                  while staying focused on the most important problems.</p>
+              <p className="font-medium">Using shared resources, code, processes, and a centralized design POV increases efficiencies, creates clarity, 
+              and breaks down knowledge silos. The Design System empoweres teams to collaborate more effectively, enabling a faster design to ship 
+              cycle and keeps teams focused on solving the most important problems for our customers. The bottom line is that we save product teams 
+              time and money.</p>
                   <div className="sm-spacing"></div>
                 <b>Our customers benefit</b>
-                <p className="font-medium">Design Systems increase usability and trustworthiness by making experiences familiar and consistent while 
-                    also meeting the bar set by the Microsoft brand.</p>
+                <p className="font-medium">Design Systems increase usability, trustworthiness, and brand equity by making experiences familiar and coherent across 
+                our ecosystem, while also meeting the bar set by Microsoft. With a Design System, we ship better experiences.</p>
                   <div className="sm-spacing"></div>
                 <b>Our principles</b>
-                <p className="font-medium">Fluent is the Design language of Microsoft, and serves as the foundation for our Design System, synthesized 
-                    through the lens of the unique needs of our customers. We are also part of a federated community of Systems 
-                    Teams from across the company that share similar patterns, platforms, requirements, and the like; we share work 
-                    and perspectives with these teams as a way to strengthen the coherence of our Systems, as well as to utilize and 
-                    build on each other’s work. These teams are currently M365, O365, and Dynamics.
-                    <br/><br/>
-                    Fabric is the platform we use for our controls and patterns. We reuse as much as possible,
-                    while tailoring where we need to for our customers, and where applicable guidance is missing.</p>
-
+                <p className="font-medium">We share knowledge and resources with System teams across the company, beginning with our partnership with Fluent. 
+                We build on the work of others wherever we can, and tailor our experiences to best serve the needs of our product’s customers.
+                 And when needed, we innovate new experiences that can then be fed back into the Microsoft community of federated product ecosystems.</p>
+                 <div className="sm-spacing"></div>
+                <b>The Design System belongs to everyone</b>
+                <p className="font-medium">Everyone is accountable for supporting, utilizing, and contributing to the System. The Coherence team are 
+                the curators and facilitators of the System, but we are all co-owners. The full promise of the Design System depends on everyone’s commitment.</p>
               </div>
         {/* Grid Placeholder for more content */}
         <div className="GridImage-placeholder">
