@@ -101,7 +101,7 @@ ul .nav-sublist {
   padding:0 0 0 0px;
 }
 .side-nav {
-  overflow: hidden;
+  padding: 0px 280px 0 0px;
 }
 .side-nav-sticky-scrolling {
   position: fixed;

@@ -1,59 +1,180 @@
 import * as React from "react";
 import './ComponentPage.scss';
 import { Link } from 'react-router-dom';
-import NavExpandedCollapsed from '../assets/nav/nav-collapsed-expanded.png';
-
+import HeaderBlue from '../assets/header/header-blue.png';
+import HeaderBlack from '../assets/header/header-black.png';
+import HeaderGray from '../assets/header/header-gray.png';
+//import Highlight from 'react-highlight';
 import './HomePage.scss';
 
-const HeaderPage = () => {
+const Header = () => {
 
-    return (
+    return (  
         <div className="PageContent">
+          
+         <div className="GlobalHeader"><div className="Page-cseo-header">CSEO</div><b> Coherence</b> 
+         <span className="contact-quicklinks"><Link to="/resources">Contact Us</Link></span>
+          </div>
+          
 
-            <div className="GlobalHeader"><div className="Page-cseo-header">CSEO</div><b> Coherence</b>
-                <span className="contact-quicklinks"><Link to="/resources">Contact Us</Link></span>
-            </div>
+         <div className="PageContent-spacing">
+         <div className="PageHeader"><h1>Header</h1> </div>
+         <div className="Intro"><p>The header is always at the top of the application as an identifier for the user to quickly understand which
+           application they are in. The header will include the app name and icons if neccessary. Please contact the Coherence team for further 
+           guidance.</p></div>
+         <p className="semibold">
+           <div className="sm-spacing">App Theme</div>
+         <img className="image-width-75 Image-spacing" src={HeaderBlue} alt="Illustration of blue Chrome Header."/>
+         <div className="sm-spacing">Neutral dark</div>
+         <img className="image-width-75 Image-spacing" src={HeaderBlack} alt="Illustration of black Chrome Header." />
+         <div className="sm-spacing">Neutral Light</div>
+          <img className="image-width-75 Image-spacing" src={HeaderGray} alt="Illustration of gray Chrome Header." />
+          </p>
 
+        <div className="med-spacing"></div>
+        <div className="med-spacing"></div>
 
-            <div className="PageContent-spacing">
-                <div className="PageHeader"><h1>Navigation</h1> </div>
-                <div className="Intro"><p>The navigation pane provides links to distinctly different functional areas of the application and allows
-                    for quickly switching views. Tree nesting is available, but generally not recommended; use on-page sub navigation instead, when 
-                    possible. The Navigation pane can be open or collapsed by default, and is togglable by the user.</p></div>
-                    <img src={NavExpandedCollapsed} alt="Illustration of Nav Collapsed." />
-                    <div className="med-spacing"></div>
-                    <div className="med-spacing"></div> 
-                    
-                    <div className="SubHeader">Fabric Component Usage</div>
-                    <div className="Content"> 
-                    This section provides guidance on customizing <a href="#" target="_blank">Office UI Fabric's </a> navigation component to reflect the CSEO design system. 
-                    You will be able to customize this component for your needs if you are developing your project using ReactJS. Refer to the <Link to="/DevelopGettingStarted">Get Started Page for Developers</Link> to set up
-                    your project using ReactJS. The default navigation contains an ellipses. To follow the CSEO design guidelines replace the ellipses with the "ChevronDown" icon located in the <a href="#" target="_blank">Fabric icon library</a>.
+        <div className="SubHeader">Fabric Component Usage</div>
+        <div className="Content">
+        <div className="Developer-steps">Step 1: Install office-ui-fabric-react package</div>
+        <div className="CodeBody">You should be able to npm install and import the following Office UI Fabric components in your code, 
+        as shown below:</div>
+       <div className="code-snippet"> 
+        <pre><code className='javascript'>
+  {`import * as React from 'react';
+import { IconButton } from 'office-ui-fabric-react/lib/Button';
+import './App.scss';
+import { initializeIcons } from 'office-ui-fabric-react/lib/Icons';
+import {
+  Persona,
+  PersonaSize,
+  PersonaPresence
+} from 'office-ui-fabric-react/lib/Persona';
+import { TestImages } from 'office-ui-fabric-react/lib/common/TestImages';`}
+</code></pre>
+</div>
 
-                    <p>The <b className="CodeHighlights">styles</b> prop allows you to control the styling of every part of a component. The root, the children, and even sub components. 
-                    You can use this prop to customize components based on given design direction, or you can create a brand new component with these custom styles. Below is an example of an Object based styling. 
-                    Learn more about styling Fabric components <a href="https://github.com/OfficeDev/office-ui-fabric-react/wiki/Component-Styling#using-a-styleable-component" target="_blank" >here. </a></p>
-                    
-                    <div className="code-snippet"> 
-                    <pre><code className='css'>
-                    {`// Define styling, split out styles for each area.
-const styles: IComponentStyles {
-  root: { /* styles */ },
-  child1: ['className', { /* styles */ }],
-  child2: { /* styles */ }
-  subComponentStyles: {
-    subComponent: {
-      root: { /* styles */ },
-      child1: { /* styles */ },
+        <div className="Developer-steps">Step 2: Add header to <b className="CodeHighlights">App.js</b> or <b className="CodeHighlights">App.tsx</b> file</div>
+          <div className="CodeBody">Once you have installed and imported the dependencies, you can utilize the following code and place it in
+          the <b className="CodeHighlights">render</b> function to return the header, as shown below:</div>
+           <div className="code-snippet"> 
+        <pre><code className='javascript'>
+        {`<div className="topBar">
+<div className="headerLeft">
+  <IconButton
+    className={'headerWaffle'}
+    menuIconProps={{iconName: 'WaffleOffice365'}}
+    title="Waffle Menu"
+    ariaLabel="Waffle Menu"
+  />
+  <div className="titleLogo">
+    App Title
+  </div>
+</div>
+<div className="headerRight">
+  <IconButton
+    className={'headerRightIcons'}
+    menuIconProps={{iconName: 'Ringer'}}
+    title="Notification"
+    ariaLabel="Notification"
+  />
+  <IconButton
+    className={'headerRightIcons'}
+    menuIconProps={{iconName: 'Settings'}}
+    title="Settings"
+    ariaLabel="Settings"
+  />
+  <IconButton
+    className={'headerRightIcons'}
+    menuIconProps={{iconName: 'Help'}}
+    title="Help"
+    ariaLabel="Help"
+  />
+
+  <Persona
+    className={'headerRightPersona'}
+    imageUrl={TestImages.personaMale}
+    size={PersonaSize.size28}
+    presence={PersonaPresence.online}
+  />
+</div>
+</div>`}
+        </code></pre>
+        </div>
+        
+
+        <div className="Developer-steps">Step 3: Add styling to header</div>
+        <div className="CodeBody">Below is the <b className="CodeHighlights">.SCSS</b> snippet accompanying the code shown above.</div>
+        <div className="code-snippet"> 
+        <pre><code className='javascript'>
+        {`.topBar {
+  grid-area: top;
+  flex-direction: row;
+  display: flex;
+  background-color: #DDD;
+  color: #000;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: hidden;
+
+  .headerLeft {
+    display: flex;
+    align-items: center;
+
+    button {
+      color: #000; 
+      width: 48px;
+      height: 48px;
+        
+      .ms-Button-menuIcon {
+        font-size: 16px;
+      }
+    }
+
+    .titleLogo {
+      font-size: 16px;
+      font-weight: 600;
+      padding-left: 6px;
+      @media (min-width: 400) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .headerRight {
+    display: flex;
+    align-items: center;
+
+    button {
+      color: #fff; 
+      width: 48px;
+      height: 48px;
+      display: none;
+      
+      @media (min-width: 375) {
+        display: flex;
+      }
+
+      div i {
+        font-size: 16px;
+      }
+    }
+
+    .headerRightPersona {
+      align-items: center;
+      display: block;
+      margin: 0 16px 0 8px;
     }
   }
 }`}
-                    </code></pre>
-                    </div>
-                    </div>
-            </div>
+        </code></pre>
         </div>
 
+        </div>
+        
+        </div>
+        </div>
+        
     );
-};
-export default HeaderPage;
+}; 
+export default Header;
