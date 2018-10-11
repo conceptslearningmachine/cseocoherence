@@ -27,7 +27,7 @@ h2 {
 
 .app {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 1fr 4fr;
 }
 
 @media (max-width: 700px) {

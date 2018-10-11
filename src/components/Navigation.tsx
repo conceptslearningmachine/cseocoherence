@@ -18,9 +18,9 @@ const Navigation = () => {
          <div className="PageHeader"><h1>Navigation</h1>
          </div>
         {/* Navigation Intro w/ image Section */}
-         <div className="Intro"><p>Navs (also called "left nav" or "navigation pane") provide links to the main areas of an app or a site. 
-           In larger configurations, the Nav is always on-screen, usually on the left of the view. In smaller configurations, the Nav may
-          collapse into a skinnier version or be completely hidden until the user taps an icon.</p></div>
+         <div className="Intro"><p>The navigation pane provides links to distinctly different functional areas of the application and allows
+            for quickly switching views. Tree nesting is available, but generally not recommended; use on-page sub navigation instead, when 
+            possible. The Navigation pane can be open or collapsed by default, and is togglable by the user.</p></div>
         {/* Navigation Placeholder for more content */}
           <img src={NavExpandedCollapsed} alt="Illustration of Nav Collapsed." />
           <div className="med-spacing"></div>

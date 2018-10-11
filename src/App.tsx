@@ -11,6 +11,7 @@ import Grid from './components/Grid';
 import Iconography from './components/Iconography';
 import Typography from './components/Typography';
 import Card from './components/Card'
+import CardPage from './components/HeaderPage'
 import Header from './components/Header'
 import Navigation from './components/Navigation';
 import FooterNav from './components/FooterNav';
@@ -42,6 +43,7 @@ const App = () => (
         <Route path="/styles/typography" component={Typography} />
         {/* Patterns */}
         <Route path="/patterns/card" component={Card} />
+        <Route path="/patterns/cardpage" component={CardPage} />
         <Route path="/patterns/header" component={Header} />
         <Route path="/patterns/navigation" component={Navigation} />
       </Switch>
