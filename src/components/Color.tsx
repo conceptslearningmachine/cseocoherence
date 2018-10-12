@@ -107,45 +107,29 @@ const Color = () => {
                             <li>#F2F2F2</li>
                         </ul>
                     </div>
-                    {/* <div className="color-palette-neutral">
-                        <div className="color-palette light400"></div>
-                        <ul className="color-info">
-                            <li>Light 400</li>
-                            <li>#EDEDED</li>
-                        </ul>
-                    </div>
-                    <div className="color-palette-neutral">
-                        <div className="color-palette light500"></div>
-                        <ul className="color-info">
-                            <li>Light 500</li>
-                            <li>#E9E9E9</li>
-                        </ul>
-                    </div>
-                    <div className="color-palette-neutral">
-                        <div className="color-palette light600"></div>
-                        <ul className="color-info">
-                            <li>Light 600</li>
-                            <li>#E5E5E5</li>
-                        </ul>
-                    </div>
-                    <div className="color-palette-neutral">
-                        <div className="color-palette light700"></div>
-                        <ul className="color-info">
-                            <li>Light 700</li>
-                            <li>#DDDDDD</li>
-                        </ul>
-                    </div>
-                    <div className="color-palette-neutral">
-                        <div className="color-palette light800"></div>
-                        <ul className="color-info">
-                            <li>Light 800</li>
-                            <li>#D5D5D5</li>
-                        </ul>
-                    </div> */}
                 </div>
-
+                {/* App  palette section */}
+                <div className="SubHeader">App theme surfaces</div>
+                {/* Color Palette for alerts */}
+                <div className="palette-spacing">
+                    <div className="color-palette-neutral">
+                        <div className="color-palette app-theme-1"></div>
+                        <ul className="color-info">
+                            <li>App theme</li>
+                            <li>#0078D4</li>
+                        </ul>
+                    </div>
+                    <div className="color-palette-neutral">
+                        <div className="color-palette app-theme-2"></div>
+                        <ul className="color-info">
+                            <li>Text and icons</li>
+                            <li>#FFFFFF</li>
+                        </ul>   
+                    </div>
+                    <p>* For interactive states on App theme backgrounds, use the Primary button state definitions</p>
+                </div>
                 {/* Icons palette section */}
-                <div className="SubHeader">Notifications text</div>
+                <div className="SubHeader">Notification icons</div>
                 {/* Color Palette for Icons */}
                 <div className="palette-spacing">
                     <div className="color-palette-neutral">
@@ -177,7 +161,6 @@ const Color = () => {
                         </ul>
                     </div>
                 </div>
-
 
                 {/* Alerts  palette section */}
                 <div className="SubHeader">Notifications background</div>
