@@ -1,5 +1,5 @@
 import * as React from "react";
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import Updates from './components/Updates';
 import Resources from './components/Resources';
@@ -20,7 +20,7 @@ import styles from "./styles";
 
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <div className="app">
       <style>{styles}</style>
       <Navbar />
@@ -48,7 +48,7 @@ const App = () => (
       <FooterNav/>
       <FooterMain/>
     </div>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
