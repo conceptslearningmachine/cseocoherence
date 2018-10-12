@@ -1,7 +1,6 @@
 import * as React from "react";
 import './ComponentPage.scss';
 import { Link } from 'react-router-dom';
-import { Highlight } from '@uifabric/example-app-base';
 import { Pivot, PivotItem, PivotLinkSize, IPivotStyles, PivotLinkFormat } from 'office-ui-fabric-react/lib/Pivot';
 import './HomePage.scss';
 import NodejsLogoJPG from '../assets/dev-logos/nodejs_logo.svg';
@@ -37,17 +36,17 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
             componentPageTab = this._getReactTab();
         } else if (this.state.selectedKey === 'gettingStartedCorePage') {
             componentPageTab = this._getCoreTab();
-        }else if (this.state.selectedKey === 'gettingStartedOthersPage') {
+        } else if (this.state.selectedKey === 'gettingStartedOthersPage') {
             componentPageTab = this._getOtherFrameworksTab();
         }
-         else {
+        else {
             componentPageTab = this._getCoreTab();
         }
 
         return (
             <div className="PageContent">
                 <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b>
-                <span className="contact-quicklinks"><Link to="/resources">Contact Us</Link></span>
+                    <span className="contact-quicklinks"><Link to="/resources">Contact Us</Link></span>
                 </div>
                 <div className="PageContent-spacing">
                     <div className="PageHeader"><h1>Developer</h1></div>
@@ -90,9 +89,9 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
             linkIsSelected: [
                 {
                     selectors: {
-                      ':before': {
-                        borderBottom: '2px solid #00CC6A'
-                      }
+                        ':before': {
+                            borderBottom: '2px solid #00CC6A'
+                        }
                     }
                 }
             ],
@@ -125,7 +124,7 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
             >
                 <PivotItem className="ComponentPage-pivot" headerText="Fabric ReactJS" itemKey="gettingStartedReactPage" />
                 <PivotItem className="ComponentPage-pivot" headerText="Fabric Core" itemKey="gettingStartedCorePage" />
-                <PivotItem className="ComponentPage-pivot" headerText="Other Frameworks" itemKey="gettingStartedOthersPage"/>
+                <PivotItem className="ComponentPage-pivot" headerText="Other Frameworks" itemKey="gettingStartedOthersPage" />
             </Pivot>
         );
     }
@@ -134,23 +133,23 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
         return (
             <div>
                 {/* ReactJS Intro w/ code */}
-                <div className="Intro">
-                <div className="med-spacing"></div>
-                <div className="med-spacing"></div>
-                    <p>
-
-                        <p>The CSEO design system utilizes the <a href="https://developer.microsoft.com/en-us/fabric#/get-started" target="_blank">Office UI Fabric ReactJS Library</a> which provides front-end developers and engineers with a collection of reusable
+                <div>
+                    <div className="med-spacing"></div>
+                    <div className="med-spacing"></div>
+                        <div className="Intro">
+                        <p>The <a href="https://developer.microsoft.com/en-us/fabric#/get-started" target="_blank">Office UI Fabric ReactJS Library</a> provides front-end developers and engineers with a collection of reusable
                          components in ReactJS to build applications. Adopting the library enables developers to use consistent markup,
                           styles, and behavior within their applications. </p>
-                          <div className="med-spacing"></div>
-                          <div className="SubHeader">Not developing using ReactJS?</div>
-                          No problem! <a href="https://github.com/OfficeDev/office-ui-fabric-core" target="_blank">Fabric Core</a> is a responsive, mobile-first collection of styles and tools designed to make it quick and simple for you to create web experiences.
-                          It contains the core styles used across all aspects of Fabric including icons, type, fonts,
-                    colors, the grid, etc.
-                    <div className="med-spacing"></div>
-                    <div className="SubHeader">Installation</div>
+                        <div className="med-spacing"></div>
+                        <div className="SubHeader">Not developing using ReactJS?</div>
+                        <p> No problem! <a href="https://github.com/OfficeDev/office-ui-fabric-core" target="_blank">Fabric Core</a> is a responsive, mobile-first collection of styles and tools designed to make it quick and simple for you to create web experiences.
+                         It contains the core styles used across all aspects of Fabric including icons, type, fonts,
+                    colors, the grid, etc.</p>
+                    </div>
+                        <div className="med-spacing"></div>
+                        <div className="SubHeader">Installation</div>
 
-                        To get started, we recommend installing the following tools:
+                        <p>To get started, we recommend installing the following tools:</p>
 
 
                         <table>
@@ -158,7 +157,7 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                             <tbody>
                                 <tr>
                                     <td className="Code-list-col1"><img src={NodejsLogoJPG} alt="Illustration of NodeJS logo." width="54" />
-                                        <br /> <a className="global-links" href="https://nodejs.org/en/" target="_blank">Node.js</a> <br/>(NOTE: please install the
+                                        <br /> <a className="global-links" href="https://nodejs.org/en/" target="_blank">Node.js</a> <br />(NOTE: please install the
                     LTS version as we can't validate current will always work)</td>
                                     <td className="type-col-2">
                                         <img src={VSCodelogoSVG} alt="Illustration of VSCode logo." width="54" />
@@ -178,18 +177,16 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                                 </tr>
                             </tbody>
                         </table>
-                    </p>
+                 
                     <div className="med-spacing"></div>
-                    <p></p>
-                    <p>To install the Fabric React NPM package in your project, from the root of your project, run:</p>
-                    <p></p>
-                    <p className="ComponentPage-code">
-                        <Highlight className="bash">npm install --save office-ui-fabric-react</Highlight>
-                    </p>
-                    <p></p>
+                    
                 </div>
                 <div className="Intro">
-                <div className="med-spacing"></div>
+                <p>To install the Fabric React NPM package in your project, from the root of your project, run:</p>
+                   <div className="code-snippet">
+                    <pre><code className='bash'>{`npm install --save office-ui-fabric-react`}</code></pre>
+                    </div>
+                    <div className="med-spacing"></div>
                     <div className="SubHeader">Component Usage</div>
                     <p><a href="https://github.com/OfficeDev/office-ui-fabric-react/wiki/Sample-App" target="_blank">Here is
             a step by step tutorial</a> on how to build a simple React app with an Office UI Fabric React component.</p>
@@ -198,8 +195,8 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
               import it along with React and use it in your render method. <b>Note: </b>Wrapping your application in the
               Fabric component is required to support RTL, keyboard focus, and other features.</p>
                     <p></p>
-                    <p className="ComponentPage-code">
-                        <Highlight className="javascript">
+                    <div className="code-snippet">
+                    <pre><code className='javascript'>
                             {`import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Fabric } from 'office-ui-fabric-react/lib/Fabric';
@@ -214,8 +211,8 @@ const MyPage = () => (
 );
 
 ReactDOM.render(<MyPage />, document.body.firstChild);`}
-                        </Highlight>
-                    </p>
+                        </code></pre>
+                    </div>
                 </div>
                 <div className="med-spacing"></div>
                 <div className="SubHeader">Icon Usage</div>
@@ -224,12 +221,12 @@ ReactDOM.render(<MyPage />, document.body.firstChild);`}
                       where you don't care about icons, or you only care about a subset.
                 To make them available, you may initialize them as such:</p>
 
-                    <p className="ComponentPage-code">
-                        <Highlight className="javascript">
+                    <div className="code-snippet">
+                    <pre><code className='javascript'>
                             {`import { initializeIcons } from 'office-ui-fabric-react/lib/Icons';
 
-initializeIcons(/* optional base url */);`}</Highlight>
-                    </p>
+initializeIcons(/* optional base url */);`}</code></pre>
+                    </div>
                 </div>
             </div>
         );
@@ -238,58 +235,61 @@ initializeIcons(/* optional base url */);`}</Highlight>
         return (
             <div>
                 <div className="Intro">
-                <div className="med-spacing"></div>
-                <div className="med-spacing"></div>
-                    <p>To incoporate the CSEO design system into your projects, one option is to utilize <a href="" target="_blank">Fabric Core</a>. 
+                    <div className="med-spacing"></div>
+                    <div className="med-spacing"></div>
+                    <p>To incoporate the CSEO design system into your projects, one option is to utilize <a href="https://github.com/OfficeDev/office-ui-fabric-core/" target="_blank">Fabric Core</a>.
                     Fabric Core contains the core styles used across all aspects of Fabric including icons, type, fonts,
                     colors, the grid, etc. Fabric core is framework independent as both Both Fabric React and Fabric JS use Fabric Core. Reference the latest release of Fabric using the CDN below.</p>
                     <p><b>Note:</b> This is a separate project from Office UI Fabric React, which contains reusable ReactJS components.</p>
-                    <div className="med-spacing"></div>
-                    <div className="SubHeader">Installation</div>
-                    <div className="ComponentPage-inline">To use the CDN reference, copy and add the following line to the <code className="Code-inline">&lt;head&gt;</code> of your HTML webpage:</div>
-                    <p></p>
-                    <p className="ComponentPage-code">
-                        <Highlight className="html">
-                            {`<link rel="stylesheet" href="https://static2.sharepointonline.com/files/
-fabric/office-ui-fabric-core/9.6.0/css/fabric.min.css">
-`}</Highlight>
-                    </p>
                 </div>
+                <div className="med-spacing"></div>
+                <div className="SubHeader">Installation</div>
+                <p>To use the CDN reference, copy and add the following line to the <code className="Code-inline">&lt;head&gt;</code> of your HTML webpage:</p>
+
+                
+
                 <div className="med-spacing"></div>
                 <div className="SubHeader">Other ways to get Fabric Core</div>
                 <div className="Content">
-                        You can{' '}
-                        <a className="" href="https://github.com/OfficeDev/office-ui-fabric-core/releases" target="_blank">
-                            download a copy of Fabric for your project
+                <div className="code-snippet">
+                    <pre><code className='html'>
+                        {`<link rel="stylesheet" href="https://static2.sharepointonline.com/files/
+fabric/office-ui-fabric-core/9.6.0/css/fabric.min.css">`}</code></pre>
+<div className="med-spacing"></div>
+                </div>
+                    You can{' '}
+                    <a className="" href="https://github.com/OfficeDev/office-ui-fabric-core/releases" target="_blank">
+                        download a copy of Fabric for your project
             </a>{' '}
-                        or{' '}
-                        <a
-                            className=""
-                            href="https://github.com/OfficeDev/office-ui-fabric-react/wiki#using-fabric-react" target="_blank">
-                            add it through a package manager
+                    or{' '}
+                    <a
+                        className=""
+                        href="https://github.com/OfficeDev/office-ui-fabric-react/wiki#using-fabric-react" target="_blank">
+                        add it through a package manager
             </a>. You can also{' '}
-                        <a
-                            className=""
-                            href="https://github.com/OfficeDev/office-ui-fabric-react/wiki#building-the-repo" target="_blank">
-                            build your own copy from the source code
+                    <a
+                        className=""
+                        href="https://github.com/OfficeDev/office-ui-fabric-react/wiki#building-the-repo" target="_blank">
+                        build your own copy from the source code
             </a>.
-                    <p></p>
                     <div className="med-spacing"></div>
                     <div className="SubHeader">Fabric Core Usage</div>
-                    Reference core Fabric styles. For example, add the <code className="Code-inline">ms-Fabric</code> class to a containing element, such as <code className="Code-inline">&lt;body&gt;</code>, to set the font-family for all Fabric typography classes used within that element.
-                    <p className="ComponentPage-code">
-                        <Highlight>{`<body class="ms-Fabric">
+                    <p>Reference core Fabric styles. For example, add the <code className="Code-inline">ms-Fabric</code> class to
+                     a containing element, such as <code className="Code-inline">&lt;body&gt;</code>, to set the font-family for all
+                      Fabric typography classes used within that element.</p>
+                    <div className="code-snippet">
+                    <pre><code className='html'>{`<body class="ms-Fabric">
   <span class="ms-font-su ms-fontColor-themePrimary">Big blue text</span>
-</body>`}</Highlight></p>
+</body>`}</code></pre></div>
 
-                <div className="med-spacing"></div>
-                <div className="SubHeader">Icon Usage</div>
-                To use a Fabric icon, include the "i" element on your page, and then reference the appropriate classes. You can control the size of the icon by changing the font size. 
-                <p>For example, the following code shows how to make an extra-large table icon that uses the themePrimary (#0078d7) color:
-                <p className="ComponentPage-code">
-                        <Highlight>{`<i class="ms-Icon ms-font-xl ms-Icon--Table ms-fontColor-themePrimary"></i>`}</Highlight></p>
-                </p>
-                To find more icons that are available in Office UI Fabric, use the search feature on the <a href="https://developer.microsoft.com/en-us/fabric#/styles/icons" target="_blank">Icons page</a>. When you find an icon to use in your add-in, 
+                    <div className="med-spacing"></div>
+                    <div className="SubHeader">Icon Usage</div>
+                    To use a Fabric icon, include the "i" element on your page, and then reference the appropriate classes. You can control the size of the icon by changing the font size.
+                <p>For example, the following code shows how to make an extra-large table icon that uses the themePrimary (#0078d7) color:</p>
+                <div className="code-snippet">
+                    <pre><code className='javascript'>{`<i class="ms-Icon ms-font-xl ms-Icon--Table ms-fontColor-themePrimary"></i>`}</code></pre></div>
+                    
+                    To find more icons that are available in Office UI Fabric, use the search feature on the <a href="https://developer.microsoft.com/en-us/fabric#/styles/icons" target="_blank">Icons page</a>. When you find an icon to use in your add-in,
                 be sure to prefix the icon name with <code className="Code-inline"> ms-Icon--</code>, as shown in the example above.
                 </div>
             </div>
@@ -300,29 +300,26 @@ fabric/office-ui-fabric-core/9.6.0/css/fabric.min.css">
         return (
             <div>
                 <div className="Intro">
+                    <div className="med-spacing"></div>
+                    <div className="med-spacing"></div>
+                    The CSEO Design System supports ReactJS and SCSS partials as core parts of the product in an effort to stay aligned with other product teams within Microsoft,  while also recognizing that we need to tailor existing work to serve the specific needs of our customers..
+                    You can still build components even if you're using a different frameworks such as Angular.
                 <div className="med-spacing"></div>
-                <div className="med-spacing"></div>
-                The CSEO Design System supports ReactJS and SCSS partials as core parts of the product in an effort to stay aligned with other product teams within Microsoft,  while also recognizing that we need to tailor existing work to serve the specific needs of our customers.. 
-                You can still build components even if you're using a different frameworks such as Angular.
-                <div className="med-spacing"></div>
-                <div className="med-spacing"></div>
-                <p>
-                   
-                </p>     
+                    <div className="med-spacing"></div>
                 </div>
                 <div className="Content">
-                <div className="SubHeader">Fabric JS</div>
-                One option is to utilize <a href="https://github.com/OfficeDev/office-ui-fabric-js" target="_blank">Fabric JS</a>, a JavaScript front-end framework 
-                that provides visuals-focused <a href="https://github.com/OfficeDev/office-ui-fabric-js/blob/master/ghdocs/COMPONENTSLIST.md" target="_blank">components</a> to extend, 
-                re-work and use in your application. These components are highly focused on the styling (CSS) rather than the functionality (JavaScript), so you can feel free to reimplement the component in the framework of your choice. 
+                    <div className="SubHeader">Fabric JS</div>
+                    One option is to utilize <a href="https://github.com/OfficeDev/office-ui-fabric-js" target="_blank">Fabric JS</a>, a JavaScript front-end framework
+                that provides visuals-focused <a href="https://github.com/OfficeDev/office-ui-fabric-js/blob/master/ghdocs/COMPONENTSLIST.md" target="_blank">components</a> to extend,
+                    re-work and use in your application. These components are highly focused on the styling (CSS) rather than the functionality (JavaScript), so you can feel free to reimplement the component in the framework of your choice.
                 <p>For a quick start, you can reference the latest release of Fabric from a CDN or clone and build locally. Once you've got Fabric JS added to your project,
                      look at the <a href="https://github.com/OfficeDev/office-ui-fabric-js/blob/master/ghdocs/COMPONENTSLIST.md" target="_blank">component list</a> for documentation pertaining to each available component. </p>
-                <p>If you'd like to get Fabric through a package manager such as Bower, npm, or NuGet, check out the <a href="https://github.com/OfficeDev/office-ui-fabric-js/blob/master/ghdocs/PACKAGES.md" target="_blank">package manager docs</a>.</p>
-                <p><b>Note:</b> Fabric JS uses styles from the Office UI Fabric Core project. </p>
-                <div className="med-spacing"></div>
-                <div className="SubHeader">Wrapping Fabric components with Angular components</div>  
-                If your team is currently using Angular 2, consider creating an Office Add-in as a single page application and using Fabric components in your add-in by wrapping them in Angular components. For an example that shows you
-                 how to do this, see <a href="https://github.com/OfficeDev/Word-Add-in-Angular2-StyleChecker" target="_blank">Word Style Checking Add-in Built on Angular</a>. 
+                    <p>If you'd like to get Fabric through a package manager such as Bower, npm, or NuGet, check out the <a href="https://github.com/OfficeDev/office-ui-fabric-js/blob/master/ghdocs/PACKAGES.md" target="_blank">package manager docs</a>.</p>
+                    <p><b>Note:</b> Fabric JS uses styles from the Office UI Fabric Core project. </p>
+                    <div className="med-spacing"></div>
+                    <div className="SubHeader">Wrapping Fabric components with Angular components</div>
+                    If your team is currently using Angular 2, consider creating an Office Add-in as a single page application and using Fabric components in your add-in by wrapping them in Angular components. For an example that shows you
+                 how to do this, see <a href="https://github.com/OfficeDev/Word-Add-in-Angular2-StyleChecker" target="_blank">Word Style Checking Add-in Built on Angular</a>.
                 </div>
             </div>
         );

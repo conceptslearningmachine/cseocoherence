@@ -34,7 +34,7 @@ const Iconography = () => {
               <p>If you need a new icon designed, please fill out our <a href="https://github.com/Microsoft/cseo-design/issues/new/choose" className="global-links" target="_blank">icon request form</a>.</p>
               <div className="med-spacing"></div>
               <div className="SubHeader">Icon samples</div>
-              <img src={SampleIcons} alt="Illustration of sample Fabric Icons." />
+              <img className="Image-spacing image-width-75" src={SampleIcons} alt="Illustration of sample Fabric Icons." />
 
         </div>
         </div>

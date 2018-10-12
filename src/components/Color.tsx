@@ -16,19 +16,11 @@ const Color = () => {
             <div className="PageContent-spacing">
                 <div className="PageHeader"><h1>Color</h1>
 
-                </div>
-                {/* Color Intro Section */}
-                <div className="Intro"><p>CSEO Design System currently utilizes Fluent for Fabric. The library currently includes 9 theme colors and 11 neutral colors. Each has helper classes for text,
-                background, border, and hover states. When selecting colors, refer to the color accessibility guidance (PDF) to
-         ensure that your text can be ready by everyone. If you need to customize your theme, see the Theme generator.</p></div>
+                </div>            
 
                 <div className="med-spacing"></div>
                 {/* Chrome  palette section */}
                 <div className="SubHeader">Text</div>
-                <div className="Content">
-                    <p>CSEO design system uses Fabric's text theme color ramp which consists of 8 shades of shades of gray colors. We’ve included
-                    three hyperlink colors to align with accessibililty.</p>
-                </div>
 
                 {/* Color Palette for text */}
                 <div className="palette-spacing">
@@ -85,41 +77,37 @@ const Color = () => {
 
                  {/* Chrome  palette section */}
                  <div className="SubHeader">Surfaces</div>
-                <div className="Content">
-                    <p>CSEO design system uses Fluent's bright theme color ramp which consists of 8 shades of light gray colors and pure white.
-            These colors are applied only on backgrounds according a defined hierarchy.</p>
-                </div>
                 {/* Color Palette for Neutrals */}
                 <div className="palette-spacing">
                     <div className="color-palette-neutral">
                         <div className="color-palette light000"></div>
                         <ul className="color-info">
-                            <li>Light 000</li>
+                            <li>Primary</li>
                             <li>#FFFFFF</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette light100"></div>
                         <ul className="color-info">
-                            <li>Light 100</li>
+                            <li>Secondary</li>
                             <li>#FAFAFA</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette light200"></div>
                         <ul className="color-info">
-                            <li>Light 200</li>
+                            <li>Tertiary</li>
                             <li>#F6F6F6</li>
                         </ul>
                     </div>
                     <div className="color-palette-neutral">
                         <div className="color-palette light300"></div>
                         <ul className="color-info">
-                            <li>Light 300</li>
+                            <li>Navigation</li>
                             <li>#F2F2F2</li>
                         </ul>
                     </div>
-                    <div className="color-palette-neutral">
+                    {/* <div className="color-palette-neutral">
                         <div className="color-palette light400"></div>
                         <ul className="color-info">
                             <li>Light 400</li>
@@ -153,11 +141,11 @@ const Color = () => {
                             <li>Light 800</li>
                             <li>#D5D5D5</li>
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* Icons palette section */}
-                <div className="SubHeader">Notifications text and icon colors</div>
+                <div className="SubHeader">Notifications text</div>
                 {/* Color Palette for Icons */}
                 <div className="palette-spacing">
                     <div className="color-palette-neutral">
@@ -192,7 +180,7 @@ const Color = () => {
 
 
                 {/* Alerts  palette section */}
-                <div className="SubHeader">Notifications background colors</div>
+                <div className="SubHeader">Notifications background</div>
                 {/* Color Palette for alerts */}
                 <div className="palette-spacing">
                     <div className="color-palette-neutral">

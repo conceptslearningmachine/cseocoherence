@@ -21,9 +21,8 @@ const DesignGetStarted = () => {
 
                 </div>
                 {/* Icon Intro w/ image Section */}
-                <div className="Intro"><p>Our design kit is a living document that will evolve and be updated in real time as systems change. 
-                    This kit contains all of our visual assets (components, iconography, color palettes, grids, etc). The design toolkit exists 
-                    in Figma — our prototyping tool.  </p></div>
+                <div className="Intro"><p>Our design kit is a living document that will evolve and be updated in real time as systems change. This kit contains all of our visual assets (components, iconography,
+                     color palettes, grids, etc). The design toolkit exists in Figma — our prototyping tool.  </p></div>
 
                 <div className="Content">
                 <div className="resources-spacing">
@@ -40,43 +39,46 @@ onenote:https://microsoft.sharepoint.com/teams/CSEDesign2/Shared%20Documents/Coh
                         </ul>
                     </div>
                     </div>
-                    <div className="SubHeader">Figma</div>
+                    <div className="SubHeader">Our toolkit is built in Figma</div>
                     
-                    <p>Our took kit is built in Figma. We recoommend Figma because the Microsoft organization is moving in this direction and we want 
-                    to align with their tool kit for future iterations. Figma offer’s many benefits such as robust, sharable libraries that can be 
-                    updated across our organization from one, single-source, it’s operating system agnostic, includes commenting collaboration, 
-                    flexible components and so many other modern capabilities.
+                    <p>For the best experience with the Design System, We recommend using Figma. It is an all-in-one, 
+                        multi-platform tool that supports system governance, automatic updates, robust component creation, commenting, concurrent multiple users, and automated markup and code fragments 
+                        for developers. Additionally, all files are shared and available within the community, so using
+                         Figma allows designers to easily share, contribute, and build on the work of others. Figma is the design tool preferred by most organizations at Microsft for these reasons. It is a tool that enables us to break down communication silos and become more collaborative and informed. 
                     <div className="sm-spacing"></div>
-                    If you are using Illustrator, XD or Sketch, we have instructions in our toolkit on how to import your assets from those 
-                    prototyping tools on the Getting Started section of the Figma UI kit.
+                    Ultimately, we want to be tool agnostic and allow people to use the tools that are familiar to them; however, the reality is that our team cannot scale to all tools. 
+                    If you are using Illustrator, XD or Sketch, we do have instructions in our toolkit on how to best import your assets from those prototyping tools on the 
+                    Getting Started section of the Figma UI kit. In these cases, you will be required to have awareness of the latest from the system, 
+                    and make your own updates in your files If you’re using Sketch, we will be introducing an solution soon that will automatically 
+                    push system updates out to your files, though again, this does not solve all of the problems with not using Figma. 
                     <div className="sm-spacing"></div>
-                    We do not want to force you to use a tool that you are not comfortable with. If you choose not to switch to Figma, you can still export our assets to a PNG, JPG or SVG. Unfortunately, 
-                    some styling will be lost such as transparency blurs, shadows, and masks. You will need to reapply those styles in to your native application. We do not recommend this flow.
-                    <div className="sm-spacing"></div>
-                    Also, you will not benefit from the library updates. You will have to re-open Figma, update your library and reimport it in
-                     to your native application. The risk is that you may end up using out-of-date components. Also, this process is slower, and will 
-                     require extra steps to import fonts and make those assets compatible to your native application.
+                    Our team is available to help you onboard to Figma and get the most out of this very robust tool.
                      </p>
                      <div className="med-spacing"></div>
                      <div className="SubHeader">Updates</div>
-                     <p>When we have pushed UI updates, we will send a message on Teams, explaining the changes.</p>
+                     <p>When we have pushed UI updates, we will send a message on <a className="global-links" href="https://teams.microsoft.com/l/channel/19%3a35384be6215e45aea8dfcc504c2d959c%40thread.skype/Coherence?groupId=7cced089-d0d9-4f4a-be05-0a8508165afb&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47" target="_blank">Teams</a> explaining the changes.</p>
                      <div className="med-spacing"></div>
+                     <div className="SubHeader">Steps to set up Figma</div>
+                     <div className="sm-spacing"></div>
                     <div className="Designer-steps">Step 1: Visit the Figma website to install the application</div>
                     <p>Download the <b><a href="https://www.figma.com/downloads/" target="_blank">Desktop App</a></b></p>
-                    <p></p>
+                    <div className="med-spacing"></div>
                     <div className="Designer-steps">Step 2: Sign Up</div>
                     <p><b>Sign up</b> using your Microsoft.com email. Otherwise, you will not have access to join any of Microsoft channels within Figma. </p>
                     <div className="Design-onboarding-image">
                         <div className="Image-spacing"><img src={FigmaLoginJPG} alt="Illustration of login view in Figma." /></div>
                     </div>
+                    <div className="med-spacing"></div>
                     <div className="Designer-steps">Step 3: Select "View all teams" in the left side bar</div>
                     <div className="Design-onboarding-image">
                     <div className="Image-spacing"><img src={LeftNavFigmaJPG} alt="Illustration of left side bar view in Figma."  /></div>
                     </div>
+                    <div className="med-spacing"></div>
                     <div className="Designer-steps">Step 4: Scroll down until you see SSE Design. Click on Request to join. </div>
                     <div className="Design-onboarding-image">
                     <div className="Image-spacing"><img src={MicrosoftOrgFigmaJPG} alt="Illustration of Microsoft Organization view in Figma." /></div>
                     </div>
+                    <div className="med-spacing"></div>
                     <div className="Designer-steps">Step 5: Describe what team that you are on and why you need access</div>
 
                     <p>Make sure to request edit access if you are a part of the team. If you want to join other team that

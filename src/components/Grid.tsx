@@ -3,8 +3,11 @@ import './ComponentPage.scss';
 import { Link } from 'react-router-dom';
 import './HomePage.scss';
 import GridLegendJPG from '../assets/grid/grid-legend.jpg';
-import GridBreakboint1368 from '../assets/grid/breakpoint-1368.png';
-import GridBreakboint1838 from '../assets/grid/breakpoint-1838.png';
+import BaseGrid from '../assets/grid/breakpoint-1368.png';
+import GridBreakboint1838 from '../assets/grid/1838px.png';
+import GridBreakboint1255 from '../assets/grid/1255px.png';
+import GridBreakboint1368 from '../assets/grid/1368px.png';
+import GridBreakboint2241 from '../assets/grid/2241px.png';
 const Grid = () => {
 
     return (
@@ -30,14 +33,26 @@ const Grid = () => {
                 
                 <div className="med-spacing"></div>
                 <div className="GridImage-placeholder">
-                <p><b>1368 px</b></p>
-                    <img className="image-width-75" src={GridBreakboint1368} alt="Illustration of Grid Breakpoint." />
+                <p><b>Base grid</b></p>
+                    <img className="image-width-95" src={BaseGrid} alt="Illustration of Grid Breakpoint." />
                 </div>
                 
                 <div className="med-spacing"></div>
                 <div className="GridImage-placeholder">
+                <p><b>1255 px</b></p>
+                    <img className="image-width-95" src={GridBreakboint1255} alt="Illustration of Grid Breakpoint." />
+                </div>
+                <div className="GridImage-placeholder">
+                <p><b>1368 px</b></p>
+                    <img className="image-width-95" src={GridBreakboint1368} alt="Illustration of Grid Breakpoint." />
+                </div>
+                <div className="GridImage-placeholder">
                 <p><b>1838 px</b></p>
-                    <img className="image-width-75" src={GridBreakboint1838} alt="Illustration of Grid Breakpoint." />
+                    <img className="image-width-95" src={GridBreakboint1838} alt="Illustration of Grid Breakpoint." />
+                </div>
+                <div className="GridImage-placeholder">
+                <p><b>2241 px</b></p>
+                    <img className="image-width-95" src={GridBreakboint2241} alt="Illustration of Grid Breakpoint." />
                 </div>
             </div>
         </div>

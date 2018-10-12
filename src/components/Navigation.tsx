@@ -1,7 +1,6 @@
 import * as React from "react";
 import './ComponentPage.scss';
 import { Link } from 'react-router-dom';
-import { Highlight } from '@uifabric/example-app-base';
 import './HomePage.scss';
 import NavExpandedCollapsed from '../assets/nav/nav-collapsed-expanded.png';
 
@@ -18,9 +17,11 @@ const Navigation = () => {
          <div className="PageHeader"><h1>Navigation</h1>
          </div>
         {/* Navigation Intro w/ image Section */}
-         <div className="Intro"><p>The navigation pane provides links to distinctly different functional areas of the application and allows
-            for quickly switching views. Tree nesting is available, but generally not recommended; use on-page sub navigation instead, when 
-            possible. The Navigation pane can be open or collapsed by default, and is togglable by the user.</p></div>
+         <div className="Intro"><p>The navigation pane provides links to distinctly different functional areas of the application 
+           and allows for quickly switching views. Tree nesting is available, but generally not
+            recommended; use on-page sub navigation instead, when possible. The Navigation pane can be open 
+            or collapsed by default, and is togglable by the user. There are many potential iterations of the navigation - connect
+             directly with the Coherence team for further guidance.</p></div>
         {/* Navigation Placeholder for more content */}
           <img src={NavExpandedCollapsed} alt="Illustration of Nav Collapsed." />
           <div className="med-spacing"></div>
@@ -37,8 +38,8 @@ const Navigation = () => {
         <div className="CodeBody">The <b className="CodeHighlights">styles</b> prop allows you to control the styling of every part of a component. The root, the children, and even sub components. 
         You can use this prop to customize components based on given design direction, or you can create a brand new component with these custom styles. Below is an example of an Object based styling. 
         Learn more about styling Fabric components <a href="https://github.com/OfficeDev/office-ui-fabric-react/wiki/Component-Styling#using-a-styleable-component" target="_blank" >here. </a></div>
-        <div className="ComponentPage-code">
-              <Highlight className="html">
+        <div className="code-snippet"> 
+        <pre><code className='javascript'>
                 {`
 // Define styling, split out styles for each area.
 const styles: IComponentStyles {
@@ -52,7 +53,7 @@ const styles: IComponentStyles {
     }
   }
 }`}
-              </Highlight>
+             </code></pre>
             </div>
 
 

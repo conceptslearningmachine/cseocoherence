@@ -17,7 +17,7 @@ const Updates = () => {
          
          </div>
          <div className="med-spacing"></div>
-         <p><b>Release 1.0.0. — September 30th, 2018</b></p>
+         <p><b>Release 1.0.0. — October 12th, 2018</b></p>
         <p className="semibold">ADDED</p>
         <p>CSEO MVP design system site live.</p>
         </div>

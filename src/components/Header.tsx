@@ -19,9 +19,9 @@ const Header = () => {
 
          <div className="PageContent-spacing">
          <div className="PageHeader"><h1>Header</h1> </div>
-         <div className="Intro"><p>The header is always at the top of the application as an identifier for the user to quickly understand which
-           application they are in. The header will include the app name and icons if neccessary. Please contact the Coherence team for further 
-           guidance.</p></div>
+         <div className="Intro"><p>The header is always at the top of the application as an identifier 
+           for the user to quickly understand which application they are in. The header will include the app name and icons if neccessary. 
+           Please contact the Coherence team for further guidance.</p></div>
          <p className="semibold">
            <div className="sm-spacing">App Theme</div>
          <img className="image-width-75 Image-spacing" src={HeaderBlue} alt="Illustration of blue Chrome Header."/>
@@ -36,7 +36,7 @@ const Header = () => {
 
         <div className="SubHeader">Fabric Component Usage</div>
         <div className="Content">
-        <div className="Developer-steps">Step 1: Install office-ui-fabric-react package</div>
+        <div className="Developer-steps">Step 1: Import office-ui-fabric-react package</div>
         <div className="CodeBody">You should be able to npm install and import the following Office UI Fabric components in your code, 
         as shown below:</div>
        <div className="code-snippet"> 

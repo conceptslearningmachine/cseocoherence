@@ -24,12 +24,12 @@ const Card = () => {
 
          <div className="SubHeader">Primary</div>
 
-         <div className="CardImage-spacing"><img src={PrimaryCard} alt="Illustration showing a Card component." /></div>
+         <div className="CardImage-spacing"><img className="image-width-50" src={PrimaryCard} alt="Illustration showing a Card component." /></div>
          <div className="SubHeader">Level 1 Dropdown</div>
-         <div className="CardImage-spacing"><img src={CardLevel1} alt="Illustration showing a card with a button expanded." /></div>
+         <div className="CardImage-spacing"><img className="image-width-65" src={CardLevel1} alt="Illustration showing a card with a button expanded." /></div>
 
          <div className="SubHeader">Level 2 Dropdown</div>
-         <div className="CardImage-spacing"><img src={CardLevel2} alt="Illustration showing a card with a button expanded."/></div>
+         <div className="CardImage-spacing"><img className="image-width-90" src={CardLevel2} alt="Illustration showing a card with a button expanded."/></div>
 
          <div className="med-spacing"></div>
                  {/* Card Code Section */}
