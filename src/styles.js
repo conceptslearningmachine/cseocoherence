@@ -68,7 +68,6 @@ h2 {
   text-decoration: none;
   color: #11CE0D;
   font-weight: 600;
-  display: flex;
   border-left: 4px solid #11CE0D;
   padding: 4px 0 4px 45px;
 
@@ -77,7 +76,6 @@ h2 {
   text-decoration: none;
   color: #11CE0D;
   font-weight: 600;
-  display: flex;
   border-left: 4px solid #11CE0D;
   padding: 4px 0 4px 60px;
 
