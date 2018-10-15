@@ -132,7 +132,6 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
         return (
             <div>
                 {/* ReactJS Intro w/ code */}
-                <div>
                     <div className="med-spacing"></div>
                     <div className="med-spacing"></div>
                         <div className="Intro">
@@ -162,19 +161,19 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                     LTS version as we can't validate current will always work)</td>
                                     <td className="type-col-2">
                                         <img src={VSCodelogoSVG} alt="Illustration of VSCode logo." width="54" />
-                                        <div className="sm-spacing"></div>
+                                        <p className="sm-spacing"></p>
                                        
                                         <a className="global-links" href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></td>
                                 </tr>
-                                <div className="sm-spacing"></div>
+                                <tr></tr>
                                 <tr>
                                     <td className="Code-list-col1"><img src={GitsvnLogoPNG} alt="Illustration of GIT SVN logo." width="54" />
-                                    <div className="sm-spacing"></div>
+                                    <p className="sm-spacing"></p>
                                         <a className="global-links" href="https://git-scm.com/" target="_blank">Git Version Control</a>
                                     </td>
                                     <td className="Code-list-spacing">
                                         <img src={GithubLogoPNG} alt="Illustration of NodeJS logo." width="54" />
-                                        <div className="sm-spacing"></div>
+                                        <p className="sm-spacing"></p>
                                         <a className="global-links" href="https://github.com/OfficeDev/office-ui-fabric-react/wiki/Configuring-your-environment" target="_blank">
                                             Office UI Fabric GitHub docs</a></td>
                                 </tr>
@@ -183,7 +182,7 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                  
                     <div className="med-spacing"></div>
                     
-                </div>
+
                 <div className="Intro">
                 <p>To install the Fabric React NPM package in your project, from the root of your project, run:</p>
                    <div className="code-snippet">

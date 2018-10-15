@@ -6,8 +6,8 @@ const Overview = () => {
 
     return (  
         <div className="PageContent">       
-        <div className="GlobalHeader"><p className="Page-cseo-header">CSEO </p><b> Coherence</b>
-        <span className="contact-quicklinks"><a href="mailto:ssedesign_coherence@microsoft.com" >Contact Us</a></span>
+       <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b> 
+         <span className="contact-quicklinks"><a href="mailto:ssedesign_coherence@microsoft.com" >Contact Us</a></span>
         </div>
 
          <div className="PageContent-spacing">
@@ -38,9 +38,6 @@ const Overview = () => {
                 <p className="font-medium">Everyone is accountable for supporting, utilizing, and contributing to the System. The Coherence team are 
                 the curators and facilitators of the System, but we are all co-owners. The full promise of the Design System depends on everyone’s commitment.</p>
               </div>
-        {/* Grid Placeholder for more content */}
-        <div className="GridImage-placeholder">
-        </div>
         </div>
         </div>        
     );

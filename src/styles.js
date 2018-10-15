@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  line-height: 2rem;
+  line-height: normal;
   display: inline-block;
 }
 

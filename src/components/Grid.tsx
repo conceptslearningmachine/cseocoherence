@@ -1,7 +1,6 @@
 import * as React from "react";
 import './ComponentPage.scss';
 import './HomePage.scss';
-import GridLegendJPG from '../assets/grid/grid-legend.jpg';
 import BaseGrid from '../assets/grid/breakpoint-1368.png';
 import GridBreakboint1838 from '../assets/grid/1838px.png';
 import GridBreakboint1255 from '../assets/grid/1255px.png';
@@ -26,31 +25,54 @@ const Grid = () => {
                     Download our <a href="https://www.figma.com/file/p8OUJlr3v1vYc4ra1V5X0I/CSEO.DESIGN_TOOLKIT-10-1-08-Copy?node-id=7%3A131" target="_blank">UI Kit</a> from Figma to use the art, or click the grid to see a larger image.</p></div>
                 {/* Grid Placeholder for more content */}
                 <div className="med-spacing"></div>
-                <div className="GridImage-placeholder">
-                    <img src={GridLegendJPG} alt="Illustration of Grid Legend." />
-                </div>
-                
+                <div className="header-small">Key:</div>
+                <table className="grid-legend-table-style">
+                    <thead></thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                            <td className="grid-legend-col"><div className="grid-legend-colors columns"></div></td>
+                              Columns  
+                            </td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>
+                            <td className="grid-legend-col"><div className="grid-legend-colors gutters"></div></td>
+                               Gutters
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                            <td className="grid-legend-col"><div className="grid-legend-colors margins"></div></td>
+                            Margins
+                           </td>           
+                        </tr>
+                    </tbody>
+                </table>
                 <div className="med-spacing"></div>
                 <div className="GridImage-placeholder">
-                <p><b>Base grid</b></p>
+                <p className="header-small">Base grid</p>
                     <img className="image-width-95" src={BaseGrid} alt="Illustration of Grid Breakpoint." />
                 </div>
                 
                 <div className="med-spacing"></div>
                 <div className="GridImage-placeholder">
-                <p><b>1255 px</b></p>
+                <p className="header-small">1255 px</p>
                     <img className="image-width-95" src={GridBreakboint1255} alt="Illustration of Grid Breakpoint." />
                 </div>
                 <div className="GridImage-placeholder">
-                <p><b>1368 px</b></p>
+                <p className="header-small">1368 px</p>
                     <img className="image-width-95" src={GridBreakboint1368} alt="Illustration of Grid Breakpoint." />
                 </div>
                 <div className="GridImage-placeholder">
-                <p><b>1838 px</b></p>
+                <p className="header-small">1838 px</p>
                     <img className="image-width-95" src={GridBreakboint1838} alt="Illustration of Grid Breakpoint." />
                 </div>
                 <div className="GridImage-placeholder">
-                <p><b>2241 px</b></p>
+                <p className="header-small">2241 px</p>
                     <img className="image-width-95" src={GridBreakboint2241} alt="Illustration of Grid Breakpoint." />
                 </div>
             </div>

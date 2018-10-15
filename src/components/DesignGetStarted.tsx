@@ -43,16 +43,15 @@ onenote:https://microsoft.sharepoint.com/teams/CSEDesign2/Shared%20Documents/Coh
                     <p>For the best experience with the Design System, We recommend using Figma. It is an all-in-one, 
                         multi-platform tool that supports system governance, automatic updates, robust component creation, commenting, concurrent multiple users, and automated markup and code fragments 
                         for developers. Additionally, all files are shared and available within the community, so using
-                         Figma allows designers to easily share, contribute, and build on the work of others. Figma is the design tool preferred by most organizations at Microsft for these reasons. It is a tool that enables us to break down communication silos and become more collaborative and informed. 
+                         Figma allows designers to easily share, contribute, and build on the work of others. Figma is the design tool preferred by most organizations at Microsft for these reasons. It is a tool that enables us to break down communication silos and become more collaborative and informed. </p>
                     <div className="sm-spacing"></div>
-                    Ultimately, we want to be tool agnostic and allow people to use the tools that are familiar to them; however, the reality is that our team cannot scale to all tools. 
+                    <p>Ultimately, we want to be tool agnostic and allow people to use the tools that are familiar to them; however, the reality is that our team cannot scale to all tools. 
                     If you are using Illustrator, XD or Sketch, we do have instructions in our toolkit on how to best import your assets from those prototyping tools on the 
                     Getting Started section of the Figma UI kit. In these cases, you will be required to have awareness of the latest from the system, 
                     and make your own updates in your files If you’re using Sketch, we will be introducing an solution soon that will automatically 
-                    push system updates out to your files, though again, this does not solve all of the problems with not using Figma. 
+                    push system updates out to your files, though again, this does not solve all of the problems with not using Figma. </p>
                     <div className="sm-spacing"></div>
-                    Our team is available to help you onboard to Figma and get the most out of this very robust tool.
-                     </p>
+                   <p> Our team is available to help you onboard to Figma and get the most out of this very robust tool.</p>
                      <div className="med-spacing"></div>
                      <div className="SubHeader">Updates</div>
                      <p>When we have pushed UI updates, we will send a message on <a className="global-links" href="https://teams.microsoft.com/l/channel/19%3a35384be6215e45aea8dfcc504c2d959c%40thread.skype/Coherence?groupId=7cced089-d0d9-4f4a-be05-0a8508165afb&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47" target="_blank">Teams</a> explaining the changes.</p>
@@ -93,7 +92,7 @@ onenote:https://microsoft.sharepoint.com/teams/CSEDesign2/Shared%20Documents/Coh
                     <p> Once you  are approved, you will now see the channel under the sidebar. </p>
                     <div className="med-spacing"></div>
                     <div className="Designer-steps">Step 7: Set up your local fonts </div>
-                    <p> To use your local/system fonts in Figma, you have two options:
+                    <p> To use your local/system fonts in Figma, you have two options:</p>
                         <ol className="figma-download-options">
                             <li className="figma-options">Use Figma’s <a href="https://www.figma.com/downloads/" target="_blank">desktop app</a> (available for macOS and Windows). 
                                 This is the recommended option. Simply download the desktop app 
@@ -102,7 +101,6 @@ onenote:https://microsoft.sharepoint.com/teams/CSEDesign2/Shared%20Documents/Coh
                             <li className="figma-options">If you want to use Figma on the web with your browser, you can download 
                                 Figma’s <a href="https://help.figma.com/text/using-local-fonts" target="_blank">font helper</a>.</li>
                         </ol> 
-                    </p>
                 </div>
             </div>
         </div>

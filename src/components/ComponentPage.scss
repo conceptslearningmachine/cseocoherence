@@ -49,7 +49,8 @@ p {
 }
 .PageContent {
     background: #FAFAFA;
-    min-height: 100vh;;
+    min-height: 100vh;
+    overflow: hidden;
 }
 .HomePageContent {
     background: #333;
@@ -256,6 +257,28 @@ p {
     color: #000;
     
    }
+}
+.grid-legend-colors {
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #767676;
+    &.columns{
+        background-color: #BBD0D8;
+    }
+    &.gutters{
+        background-color: #72B294;
+    }
+    &.margins{
+        background-color: #62E3A6;
+    }
+}
+.grid-legend-col {
+    display: inline-block;
+    padding: 0px 10px 2px 0px;
+}
+.grid-legend-table-style{
+    line-height: normal;
+    padding: 10px 0px 0px 0px;
 }
 /*Edge Styling*/
 @supports (-ms-ime-align: auto) {

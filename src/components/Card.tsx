@@ -35,7 +35,7 @@ const Card = () => {
         <div className="SubHeader">Fabric Component Usage</div>
         <div className="Content">
         This section provides guidance on the customizing the "DashboardCard" component that exists within <a href="https://github.com/OfficeDev/office-ui-fabric-react/" target="_blank">Office UI Fabric</a> framework. 
-        You will be able to customize this component for your needs if you are developing your project using ReactJS. Refer to the <Link to="/DevelopGettingStarted">Get Started Page for Developers</Link> to set up
+        You will be able to customize this component for your needs if you are developing your project using ReactJS. Refer to the <Link to="/DeveloperGetStarted">Get Started Page for Developers</Link> to set up
         your project using ReactJS. Remember that there a number of variations of the card.
        
        <p>For example, the default <b className="CodeHighlights">box-shadow</b> value for the card is set in 
