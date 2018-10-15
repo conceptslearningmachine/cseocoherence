@@ -25,9 +25,9 @@ const Typography = () => {
         <div className="med-spacing"></div>
         <div className="med-spacing"></div>
 
-        <div className="TypographyImage-placeholder">
-
-        <img src={FontRampGreen} alt="Illustration of Green Font ramp." />
+        <div className="image-margin">
+        <img className="image-width"src={FontRampGreen} alt="Illustration of Green Font ramp." />
+        </div>
         <div className="SubHeader">Type ramp</div>
         <div className="med-spacing"></div>
         {/* <img className="Image-spacing" src={FontRamp} alt="Illustration of a general font ramp." /> */}
@@ -72,9 +72,6 @@ const Typography = () => {
               </tr>
             </tbody>
           </table>
-
-
-        </div>
       </div>
     </div>
 
