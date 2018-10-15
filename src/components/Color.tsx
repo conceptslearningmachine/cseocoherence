@@ -1,7 +1,7 @@
 import * as React from "react";
 import './ComponentPage.scss';
 import './Color.scss';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './HomePage.scss';
 
 const Color = () => {
@@ -10,7 +10,7 @@ const Color = () => {
         <div className="PageContent">
 
             <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b>
-                <span className="contact-quicklinks"> <a href="" target="_blank">Contact Us</a></span>
+            <span className="contact-quicklinks"><Link to="/resources">Contact Us</Link></span>
             </div>
 
             <div className="PageContent-spacing">
@@ -47,7 +47,7 @@ const Color = () => {
                         <tr>
                             <td className="color-col-1">
                                 <ul className="color-info">
-                                    <li>Disabled text caption on gray button</li>
+                                    <li>Disabled</li>
                                     <li>#A6A6A6</li>
                                 </ul>
                             </td>
@@ -84,7 +84,7 @@ const Color = () => {
                             <td className="color-col-1">
                                 <ul className="color-info">
                                     <li>Hyperlink disabled</li>
-                                    <li>#C8C6C4</li>
+                                    <li>#A6A6A6</li>
                                 </ul>
                             </td>
                             <td className="color-col-2"><div className="color-palette hyperlink-disabled"></div></td>
@@ -128,7 +128,7 @@ const Color = () => {
                             <td className="color-col-1">
                             <ul className="color-info">
                             <li>Tertiary</li>
-                            <li>#F6F6F6</li>
+                            <li>#F2F2F2</li>
                         </ul>
                             </td>
                             <td className="color-col-2"><div className="color-palette light200"></div></td>
@@ -137,7 +137,7 @@ const Color = () => {
                             <td className="color-col-1">
                             <ul className="color-info">
                             <li>Navigation</li>
-                            <li>#F2F2F2</li>
+                            <li>#E5E5E5</li>
                         </ul>
                             </td>
                             <td className="color-col-2"><div className="color-palette light300"></div></td>

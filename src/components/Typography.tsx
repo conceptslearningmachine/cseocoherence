@@ -20,16 +20,15 @@ const Typography = () => {
         </div>
         {/* Typography Intro w/ image Section */}
         <div className="Intro">Consistent with all Microsoft products, We use the Segoe UI font family.</div>
-
+        <div className="med-spacing"></div>
+        <div className="SubHeader">Download fonts</div>
+        <p>Windows machines come with Segoe UI pre-installed; for Mac, download here: <a href="http://uni/DesignDepot.FrontEnd/#/iconLibraryResults?productId=45781&t=FULL%20MDL2%20Assets%7CFabric%20MDL2%20Assets&f=Font&theme=light&size=16" className="global-links" target="_blank">Segoe UI</a></p>
         <div className="med-spacing"></div>
         <div className="med-spacing"></div>
 
         <div className="TypographyImage-placeholder">
 
         <img className="image-width-75" src={FontRampGreen} alt="Illustration of Green Font ramp." />
-        <div className="SubHeader">Download fonts</div>
-        <p>Windows machines come with Segoe UI pre-installed; for Mac, download here:<a href="" className="global-links" target="_blank"> Segoe UI</a></p>
-        <div className="med-spacing"></div>
         <div className="SubHeader">Type ramp</div>
         <div className="med-spacing"></div>
         {/* <img className="Image-spacing" src={FontRamp} alt="Illustration of a general font ramp." /> */}

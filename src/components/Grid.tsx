@@ -24,7 +24,7 @@ const Grid = () => {
                 {/* Grid Intro w/ image Section */}
                 <div className="Intro"><p>Our system is based off of a 12 column framework for 4 breakpoints.
              The mobile perspective is still being devloped.<br /><br />
-                    Download our <a href="#">UI Kit</a> from Figma to use the art, or click the grid to see a larger image.</p></div>
+                    Download our <a href="https://www.figma.com/file/p8OUJlr3v1vYc4ra1V5X0I/CSEO.DESIGN_TOOLKIT-10-1-08-Copy?node-id=7%3A131" target="_blank">UI Kit</a> from Figma to use the art, or click the grid to see a larger image.</p></div>
                 {/* Grid Placeholder for more content */}
                 <div className="med-spacing"></div>
                 <div className="GridImage-placeholder">

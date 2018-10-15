@@ -30,14 +30,17 @@ p {
     font-weight: 600;
     padding: 0px 0px 0px 0px;
 }
+.header-small {
+    font-size: 18px;
+    font-weight: 600;
+}
 .semibold{
     font-weight: 600;
 }
 .PageHeader {
     flex-grow: 1;
-    padding: 0px 0px 0px 0px;
-    display: flex;
     flex-wrap: wrap;
+    margin: 0 200px 0 0px;
     color: $sse-color;
     font-size: $component-page-header-size;
     font-family: 'Segoe UI';

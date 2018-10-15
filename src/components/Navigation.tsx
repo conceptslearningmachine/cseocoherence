@@ -29,11 +29,11 @@ const Navigation = () => {
 
         {/* Navigation Code Section */}
         <div className="SubHeader">Fabric Component Usage</div>
-        <div className="CodeIntro">This section provides guidance on customizing <a href="#">Office UI Fabric's </a> "Nav" component to reflect the CSEO design system. 
-        You will be able to customize this component for your needs if you are developing your project using ReactJS. Refer to the <Link to="/DevelopGettingStarted">Get Started Page for Developers</Link> to set up
+        <div className="CodeIntro">This section provides guidance on customizing <a href="https://github.com/OfficeDev/office-ui-fabric-react" target="_blank">Office UI Fabric's </a> "Nav" component to reflect the CSEO design system. 
+        You will be able to customize this component for your needs if you are developing your project using ReactJS. Refer to the <Link to="/DeveloperGetStarted">Get Started Page for Developers</Link> to set up
         your project using ReactJS.
 
-        The default navigation contains an ellipses. To follow the CSEO design guidelines replace the ellipses with the "ChevronDown" icon located in the <a href="#">Fabric icon library</a>.
+        The default navigation contains an ellipses. To follow the CSEO design guidelines replace the ellipses with the "ChevronDown" icon located in the <a href="https://developer.microsoft.com/en-us/fabric#/styles/icons" target="_blank">Fabric icon library</a>.
              
         <div className="CodeBody">The <b className="CodeHighlights">styles</b> prop allows you to control the styling of every part of a component. The root, the children, and even sub components. 
         You can use this prop to customize components based on given design direction, or you can create a brand new component with these custom styles. Below is an example of an Object based styling. 

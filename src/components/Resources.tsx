@@ -32,7 +32,7 @@ onenote:https://microsoft.sharepoint.com/teams/CSEDesign2/Shared%20Documents/Coh
                             <li><a className="global-links" href="https://github.com/OfficeDev/office-ui-fabric-react/" target="_blank">Fabric ReactJS</a></li>
                             <li><a className="global-links" href="https://github.com/OfficeDev/office-ui-fabric-core/" target="_blank">Fabric Core</a></li>
                             <li><a className="global-links" href="https://github.com/OfficeDev/office-ui-fabric-js" target="_blank">Fabric JS</a></li>
-                            <li><a className="global-links" href="https://github.com/orgs/Microsoft/teams/sse-studio-coherence" target="_blank">GitHub</a></li>
+                            <li><a className="global-links" href="https://github.com/Microsoft/cseo-design" target="_blank">GitHub</a></li>
                             <li><a className="global-links" href="https://github.com/Microsoft/cseo-design/issues/new/choose" target="_blank">Report a bug</a></li>
                             <li><a className="global-links" href="https://github.com/Microsoft/cseo-design/issues/new/choose" target="_blank">Add a work item</a></li>
                         </ul>

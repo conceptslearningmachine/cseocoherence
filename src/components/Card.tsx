@@ -24,23 +24,23 @@ const Card = () => {
 
          <div className="SubHeader">Primary</div>
 
-         <div className="CardImage-spacing"><img className="image-width-50" src={PrimaryCard} alt="Illustration showing a Card component." /></div>
+         <div className="CardImage-spacing"><img src={PrimaryCard} alt="Illustration showing a Card component." /></div>
          <div className="SubHeader">Level 1 Dropdown</div>
-         <div className="CardImage-spacing"><img className="image-width-65" src={CardLevel1} alt="Illustration showing a card with a button expanded." /></div>
+         <div className="CardImage-spacing"><img src={CardLevel1} alt="Illustration showing a card with a button expanded." /></div>
 
          <div className="SubHeader">Level 2 Dropdown</div>
-         <div className="CardImage-spacing"><img className="image-width-90" src={CardLevel2} alt="Illustration showing a card with a button expanded."/></div>
+         <div className="CardImage-spacing"><img src={CardLevel2} alt="Illustration showing a card with a button expanded."/></div>
 
          <div className="med-spacing"></div>
                  {/* Card Code Section */}
         <div className="SubHeader">Fabric Component Usage</div>
         <div className="Content">
-        This section provides guidance on the customizing the "DashboardCard" component that exists within <a href="#">Office UI Fabric</a> framework. 
+        This section provides guidance on the customizing the "DashboardCard" component that exists within <a href="https://github.com/OfficeDev/office-ui-fabric-react/" target="_blank">Office UI Fabric</a> framework. 
         You will be able to customize this component for your needs if you are developing your project using ReactJS. Refer to the <Link to="/DevelopGettingStarted">Get Started Page for Developers</Link> to set up
         your project using ReactJS. Remember that there a number of variations of the card.
        
        <p>For example, the default <b className="CodeHighlights">box-shadow</b> value for the card is set in 
-       the <code>DashboardGridLayout.css</code> file and a snippet is shown below. Reference the <a href="#">Fabric React Github site</a> for
+       the <code>DashboardGridLayout.css</code> file and a snippet is shown below. Reference the <a href="https://github.com/OfficeDev/office-ui-fabric-react/" target="_blank">Fabric React Github site</a> for
         the most updated usage guidance.</p>
        <div className="code-snippet"> 
         <pre><code className='css'>

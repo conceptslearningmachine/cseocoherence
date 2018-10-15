@@ -25,8 +25,8 @@ const Iconography = () => {
               <div className="med-spacing"></div>
               
               <div className="SubHeader">Download our icons</div>
-              <p><a href="" className="global-links" target="_blank">Segoe MDL2 Assets</a></p>
-              <p><a href="" className="global-links" target="_blank">Fonts for Mac</a></p>
+              <p><a className="global-links" href="https://microsoft.sharepoint.com/teams/BrandCentral/Pages/Bundles/Segoe_UI_fonts.aspx" target="_blank">Segoe UI fonts</a></p>
+              <p><a  href="http://uni/DesignDepot.FrontEnd/#/iconLibraryResults?productId=45781&t=FULL%20MDL2%20Assets%7CFabric%20MDL2%20Assets&f=Font&theme=light&size=16" className="global-links" target="_blank">Icon fonts for Mac</a></p>
 
               <p>Windows 10 users have the font installed automatically</p>
               <div className="med-spacing"></div>

@@ -17,7 +17,7 @@ const DesignGetStarted = () => {
             </div>
 
             <div className="PageContent-spacing">
-                <div className="PageHeader"><h1>Design</h1>
+                <div className="PageHeader"><h1>Get started: Designers</h1>
 
                 </div>
                 {/* Icon Intro w/ image Section */}
@@ -27,7 +27,7 @@ const DesignGetStarted = () => {
                 <div className="Content">
                 <div className="resources-spacing">
                     <div className="resources-cols">
-                        <b>Resources</b>
+                        <div className="header-small">Resources</div>
                         <ul className="resources-list">
                         <li><a className="global-links" href="https://microsoft.sharepoint.com/teams/BrandCentral/Pages/Bundles/Segoe_UI_fonts.aspx" target="_blank">Segoe UI fonts</a></li>
                             <li><a className="global-links" href="http://uni/DesignDepot.FrontEnd/#/iconLibraryResults?productId=45781&t=FULL%20MDL2%20Assets%7CFabric%20MDL2%20Assets&f=Font&theme=light&size=16" target="_blank">Segoe MDL2 Assets icons</a></li>
@@ -89,6 +89,21 @@ onenote:https://microsoft.sharepoint.com/teams/CSEDesign2/Shared%20Documents/Coh
                     <div className="Design-onboarding-image">
                     <div className="Image-spacing"><img src={RequestJoinFigmaJPG} alt="Illustration of how to request to join SSE channel in Figma." /></div>
                     </div>
+                    <div className="med-spacing"></div>
+                    <div className="Designer-steps">Step 6: Wait until the owner of the Figma channel approves you</div>
+                    <p> Once you  are approved, you will now see the channel under the sidebar. </p>
+                    <div className="med-spacing"></div>
+                    <div className="Designer-steps">Step 7: Set up your local fonts </div>
+                    <p> To use your local/system fonts in Figma, you have two options:
+                        <ol className="figma-download-options">
+                            <li className="figma-options">Use Figma’s <a href="https://www.figma.com/downloads/" target="_blank">desktop app</a> (available for macOS and Windows). 
+                                This is the recommended option. Simply download the desktop app 
+                                and you will be good to go. The fonts you've installed on your computer will 
+                                appear in the font list.</li>
+                            <li className="figma-options">If you want to use Figma on the web with your browser, you can download 
+                                Figma’s <a href="https://help.figma.com/text/using-local-fonts" target="_blank">font helper</a>.</li>
+                        </ol> 
+                    </p>
                 </div>
             </div>
         </div>

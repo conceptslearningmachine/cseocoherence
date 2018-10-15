@@ -49,7 +49,7 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                     <span className="contact-quicklinks"><Link to="/resources">Contact Us</Link></span>
                 </div>
                 <div className="PageContent-spacing">
-                    <div className="PageHeader"><h1>Developer</h1></div>
+                    <div className="PageHeader"><h1>Get started: Developers</h1></div>
 
                     <div className={componentName}>
                         {this._navigationLinks()}
@@ -157,21 +157,25 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                             <tbody>
                                 <tr>
                                     <td className="Code-list-col1"><img src={NodejsLogoJPG} alt="Illustration of NodeJS logo." width="54" />
-                                        <br /> <a className="global-links" href="https://nodejs.org/en/" target="_blank">Node.js</a> <br />(NOTE: please install the
+                                    <div className="sm-spacing"></div>
+                                       <a className="global-links" href="https://nodejs.org/en/" target="_blank">Node.js</a> 
+                                       (NOTE: please install the
                     LTS version as we can't validate current will always work)</td>
                                     <td className="type-col-2">
                                         <img src={VSCodelogoSVG} alt="Illustration of VSCode logo." width="54" />
-                                        <br />
+                                        <div className="sm-spacing"></div>
+                                       
                                         <a className="global-links" href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></td>
                                 </tr>
+                                <div className="sm-spacing"></div>
                                 <tr>
                                     <td className="Code-list-col1"><img src={GitsvnLogoPNG} alt="Illustration of GIT SVN logo." width="54" />
-                                        <br />
+                                    <div className="sm-spacing"></div>
                                         <a className="global-links" href="https://git-scm.com/" target="_blank">Git Version Control</a>
                                     </td>
                                     <td className="Code-list-spacing">
                                         <img src={GithubLogoPNG} alt="Illustration of NodeJS logo." width="54" />
-                                        <br />
+                                        <div className="sm-spacing"></div>
                                         <a className="global-links" href="https://github.com/OfficeDev/office-ui-fabric-react/wiki/Configuring-your-environment" target="_blank">
                                             Office UI Fabric GitHub docs</a></td>
                                 </tr>
