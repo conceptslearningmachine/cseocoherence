@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import PrimaryCard from '../assets/card/primary-card.png';
 import CardLevel1 from '../assets/card/level1-card.png';
 import CardLevel2 from '../assets/card/level2-card.png';
-//import Highlight from 'react-highlight';
 import './HomePage.scss';
 
 const Card = () => {
@@ -13,7 +12,7 @@ const Card = () => {
         <div className="PageContent">
           
          <div className="GlobalHeader"><div className="Page-cseo-header">CSEO</div><b> Coherence</b> 
-         <span className="contact-quicklinks"><Link to="/resources">Contact Us</Link></span>
+         <span className="contact-quicklinks"><a href="mailto:ssedesign_coherence@microsoft.com" >Contact Us</a></span>
           </div>
           
          <div className="PageContent-spacing">

@@ -3,7 +3,6 @@ import './ComponentPage.scss';
 import './HomePage.scss';
 import FigmaLoginJPG from '../assets/design-onboarding1.jpg'
 import LeftNavFigmaJPG from '../assets/left-side-bar.jpg'
-import { Link } from 'react-router-dom';
 import MicrosoftOrgFigmaJPG from '../assets/microsoft-organization.jpg'
 import RequestJoinFigmaJPG from '../assets/request-join.jpg'
 
@@ -13,7 +12,7 @@ const DesignGetStarted = () => {
         <div className="PageContent">
 
             <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b>
-            <span className="contact-quicklinks"><Link to="/resources">Contact Us</Link></span>
+            <span className="contact-quicklinks"><a href="mailto:ssedesign_coherence@microsoft.com" >Contact Us</a></span>
             </div>
 
             <div className="PageContent-spacing">

@@ -1,6 +1,5 @@
 import * as React from "react";
 import './ComponentPage.scss';
-import { Link } from 'react-router-dom';
 import './HomePage.scss';
 
 const Resources = () => {
@@ -9,7 +8,7 @@ const Resources = () => {
         <div className="PageContent">
 
             <div className="GlobalHeader"><div className="Page-cseo-header">CSEO</div><b> Coherence</b>
-                <span className="contact-quicklinks"><Link to="/resources">Contact Us</Link></span>
+                <span className="contact-quicklinks"><a href="mailto:ssedesign_coherence@microsoft.com" >Contact Us</a></span>
             </div>
 
             <div className="PageContent-spacing">
@@ -20,7 +19,7 @@ const Resources = () => {
                     <div className="resources-cols">
                         <b>Contact Us</b>
                         <ul className="resources-list">
-                            <li><a className="global-links" href="mailto:ssedesign_coherence@microsoft.com" target="_blank">Email</a></li>
+                            <li><a className="global-links" href="mailto:ssedesign_coherence@microsoft.com">Email</a></li>
                             <li><a className="global-links" href="https://teams.microsoft.com/l/channel/19%3a35384be6215e45aea8dfcc504c2d959c%40thread.skype/Coherence?groupId=7cced089-d0d9-4f4a-be05-0a8508165afb&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47" target="_blank">Teams channel</a></li>
                             <li><a className="global-links" href="https://microsoft.sharepoint.com/teams/CSEDesign2/_layouts/OneNote.aspx?id=%2Fteams%2FCSEDesign2%2FShared%20Documents%2FCoherence%2FCoherence%20Notebook&wd=target%28Office%20Hours.one%7C219C9F8E-401D-4F44-99AB-6DF78F50F320%2F%29
 onenote:https://microsoft.sharepoint.com/teams/CSEDesign2/Shared%20Documents/Coherence/Coherence%20Notebook/Office%20Hours.one#section-id={219C9F8E-401D-4F44-99AB-6DF78F50F320}&end" target="_blank">Office Hours</a></li>

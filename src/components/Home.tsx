@@ -7,7 +7,8 @@ const Home = () => {
     return (
         <div className="HomePageContent">
             <div className="GlobalHeader"><div><div className="Home-cseo-header">CSEO</div><b> Coherence</b>
-            <span className="HomePage-contact"><Link className="Homepage-contact-link" to="/resources">Contact Us</Link></span>
+            <span className="HomePage-contact"><a href="mailto:ssedesign_coherence@microsoft.com" className="Homepage-contact-link" >Contact Us</a></span>
+
             </div>
             
             </div>

@@ -1,6 +1,5 @@
 import * as React from "react";
 import './ComponentPage.scss';
-import { Link } from 'react-router-dom';
 import { Pivot, PivotItem, PivotLinkSize, IPivotStyles, PivotLinkFormat } from 'office-ui-fabric-react/lib/Pivot';
 import './HomePage.scss';
 import NodejsLogoJPG from '../assets/dev-logos/nodejs_logo.svg';
@@ -46,7 +45,7 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
         return (
             <div className="PageContent">
                 <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b>
-                    <span className="contact-quicklinks"><Link to="/resources">Contact Us</Link></span>
+                <span className="contact-quicklinks"><a href="mailto:ssedesign_coherence@microsoft.com" >Contact Us</a></span>
                 </div>
                 <div className="PageContent-spacing">
                     <div className="PageHeader"><h1>Get started: Developers</h1></div>

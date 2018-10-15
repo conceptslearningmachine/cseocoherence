@@ -10,7 +10,7 @@ const Navigation = () => {
         <div className="PageContent">
           
          <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b> 
-         <span className="contact-quicklinks"><Link to="/resources">Contact Us</Link></span>
+         <span className="contact-quicklinks"><a href="mailto:ssedesign_coherence@microsoft.com" >Contact Us</a></span>
         </div>
 
          <div className="PageContent-spacing">
