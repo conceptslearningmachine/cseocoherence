@@ -2,7 +2,7 @@ import * as React from "react";
 import './ComponentPage.scss';
 import './HomePage.scss';
 import FigmaLoginJPG from '../assets/design-onboarding1.jpg'
-import LeftNavFigmaJPG from '../assets/left-side-bar.jpg'
+import LeftNavFigmaJPG from '../assets/left-side-bar.png'
 import MicrosoftOrgFigmaJPG from '../assets/microsoft-organization.jpg'
 import RequestJoinFigmaJPG from '../assets/request-join.jpg'
 
@@ -59,22 +59,22 @@ onenote:https://microsoft.sharepoint.com/teams/CSEDesign2/Shared%20Documents/Coh
                      <div className="SubHeader">Steps to set up Figma</div>
                      <div className="sm-spacing"></div>
                     <div className="Designer-steps">Step 1: Visit the Figma website to install the application</div>
-                    <p>Download the <b><a href="https://www.figma.com/downloads/" target="_blank">Desktop App</a></b></p>
+                    <p>Download the <b><a href="https://www.figma.com/downloads/" target="_blank">Desktop App</a></b>.</p>
                     <div className="med-spacing"></div>
                     <div className="Designer-steps">Step 2: Sign Up</div>
-                    <p><b>Sign up</b> using your Microsoft.com email. Otherwise, you will not have access to join any of Microsoft channels within Figma. </p>
+                    <p><b><a href="https://www.figma.com/login" target="_blank">Sign up</a></b> using your Microsoft.com email. Otherwise, you will not have access to join any of Microsoft channels within Figma. </p>
                     <div className="Design-onboarding-image">
                         <div className="Image-spacing"><img src={FigmaLoginJPG} alt="Illustration of login view in Figma." /></div>
                     </div>
                     <div className="med-spacing"></div>
                     <div className="Designer-steps">Step 3: Select "View all teams" in the left side bar</div>
                     <div className="Design-onboarding-image">
-                    <div className="Image-spacing"><img src={LeftNavFigmaJPG} alt="Illustration of left side bar view in Figma."  /></div>
+                    <div className="Image-spacing"><img className="image-width-50" src={LeftNavFigmaJPG} alt="Illustration of left side bar view in Figma."  /></div>
                     </div>
                     <div className="med-spacing"></div>
                     <div className="Designer-steps">Step 4: Scroll down until you see SSE Design. Click on Request to join. </div>
                     <div className="Design-onboarding-image">
-                    <div className="Image-spacing"><img src={MicrosoftOrgFigmaJPG} alt="Illustration of Microsoft Organization view in Figma." /></div>
+                    <div className="Image-spacing"><img className="image-width" src={MicrosoftOrgFigmaJPG} alt="Illustration of Microsoft Organization view in Figma." /></div>
                     </div>
                     <div className="med-spacing"></div>
                     <div className="Designer-steps">Step 5: Describe what team that you are on and why you need access</div>
@@ -91,16 +91,9 @@ onenote:https://microsoft.sharepoint.com/teams/CSEDesign2/Shared%20Documents/Coh
                     <div className="Designer-steps">Step 6: Wait until the owner of the Figma channel approves you</div>
                     <p> Once you  are approved, you will now see the channel under the sidebar. </p>
                     <div className="med-spacing"></div>
-                    <div className="Designer-steps">Step 7: Set up your local fonts </div>
-                    <p> To use your local/system fonts in Figma, you have two options:</p>
-                        <ol className="figma-download-options">
-                            <li className="figma-options">Use Figma’s <a href="https://www.figma.com/downloads/" target="_blank">desktop app</a> (available for macOS and Windows). 
-                                This is the recommended option. Simply download the desktop app 
-                                and you will be good to go. The fonts you've installed on your computer will 
-                                appear in the font list.</li>
-                            <li className="figma-options">If you want to use Figma on the web with your browser, you can download 
-                                Figma’s <a href="https://help.figma.com/text/using-local-fonts" target="_blank">font helper</a>.</li>
-                        </ol> 
+                    <div className="Designer-steps">Step 7: Installing fonts if you’ve installed the desktop app, your fonts should automatically display within Figma.</div>
+                    <p> If you are using Figma on the web with your browser, download <a href="https://help.figma.com/text/using-local-fonts" target="_blank">Figma’s font helper</a>.</p>
+                        
                 </div>
             </div>
         </div>
