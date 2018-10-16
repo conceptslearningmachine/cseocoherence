@@ -51,6 +51,15 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                     <div className="PageHeader"><h1>Get started: Developers</h1></div>
 
                     <div className={componentName}>
+                    <div className="Intro">
+                        <p><a href="https://developer.microsoft.com/en-us/fabric#/get-started" target="_blank">Office UI Fabric</a> is a front-end framework that provides developers and engineers with a collection of reusable
+                         styles and components to build applications. Adopting the library enables developers to use consistent markup,
+                          styles, and behavior within their applications. Fabric comes in many flavors so you can choose the one that works for you. Explore the tabs below to learn more about each option.</p>
+                       
+                        <div className="med-spacing"></div>
+                       
+                    </div>
+                        <div className="med-spacing"></div>
                         {this._navigationLinks()}
                         {componentPageTab}
                     </div>
@@ -134,17 +143,11 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                 {/* ReactJS Intro w/ code */}
                     <div className="med-spacing"></div>
                     <div className="med-spacing"></div>
-                        <div className="Intro">
-                        <p>The <a href="https://developer.microsoft.com/en-us/fabric#/get-started" target="_blank">Office UI Fabric ReactJS Library</a> provides front-end developers and engineers with a collection of reusable
-                         components in ReactJS to build applications. Adopting the library enables developers to use consistent markup,
-                          styles, and behavior within their applications. </p>
-                        <div className="med-spacing"></div>
-                        <div className="SubHeader">Not developing using ReactJS?</div>
-                        <p> No problem! <a href="https://github.com/OfficeDev/office-ui-fabric-core" target="_blank">Fabric Core</a> is a responsive, mobile-first collection of styles and tools designed to make it quick and simple for you to create web experiences.
-                         It contains the core styles used across all aspects of Fabric including icons, type, fonts,
-                    colors, the grid, etc.</p>
+                    <div className="Intro">
+                    <p>The <a href="https://github.com/officeDev/office-ui-fabric-react/" target="_blank">Office UI Fabric ReactJS Library</a> provides front-end developers and engineers with a collection of reusable components in ReactJS to build applications.
+                    These Fabric React components are used by many product teams throughout Microsoft. </p>
                     </div>
-                        <div className="med-spacing"></div>
+                    <div className="med-spacing"></div>
                         <div className="SubHeader">Installation</div>
 
                         <p>To get started, we recommend installing the following tools:</p>
@@ -184,6 +187,9 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                     
 
                 <div className="Intro">
+                <p>The <a href="https://developer.microsoft.com/en-us/fabric#/get-started" target="_blank">Office UI Fabric ReactJS Library</a> provides front-end developers and engineers with a collection of reusable
+                         components in ReactJS to build applications. Adopting the library enables developers to use consistent markup,
+                          styles, and behavior within their applications. </p>
                 <p>To install the Fabric React NPM package in your project, from the root of your project, run:</p>
                    <div className="code-snippet">
                     <pre><code className='bash'>{`npm install --save office-ui-fabric-react`}</code></pre>
@@ -239,7 +245,7 @@ initializeIcons(/* optional base url */);`}</code></pre>
                 <div className="Intro">
                     <div className="med-spacing"></div>
                     <div className="med-spacing"></div>
-                    <p>To incoporate the CSEO design system into your projects, one option is to utilize <a href="https://github.com/OfficeDev/office-ui-fabric-core/" target="_blank">Fabric Core</a>.
+                    <p>  <a href="https://github.com/OfficeDev/office-ui-fabric-core" target="_blank">Fabric Core</a> is a responsive, mobile-first collection of styles and tools designed to make it quick and simple for you to create web experiences.
                     Fabric Core contains the core styles used across all aspects of Fabric including icons, type, fonts,
                     colors, the grid, etc. Fabric core is framework independent as both Both Fabric React and Fabric JS use Fabric Core. Reference the latest release of Fabric using the CDN below.</p>
                     <p><b>Note:</b> This is a separate project from Office UI Fabric React, which contains reusable ReactJS components.</p>
