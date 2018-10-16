@@ -30,7 +30,7 @@ const Iconography = () => {
               <p>Windows 10 users have the font installed automatically</p>
               <div className="med-spacing"></div>
               <div className="SubHeader">Icon request</div>
-              <p>If you need a new icon designed, please fill out our <a href="https://github.com/Microsoft/cseo-design/issues/new/choose" className="global-links" target="_blank">icon request form</a>.</p>
+              <p>If you need a new icon designed, please fill out our <a href="https://github.com/Microsoft/cseo-design/issues" className="global-links" target="_blank">icon request form</a>.</p>
               <div className="med-spacing"></div>
               <div className="SubHeader">Icon samples</div>
               <img className="Image-spacing" src={SampleIcons} alt="Illustration of sample Fabric Icons." />

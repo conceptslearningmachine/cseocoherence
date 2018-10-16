@@ -32,8 +32,8 @@ onenote:https://microsoft.sharepoint.com/teams/CSEDesign2/Shared%20Documents/Coh
                             <li><a className="global-links" href="https://github.com/OfficeDev/office-ui-fabric-core/" target="_blank">Fabric Core</a></li>
                             <li><a className="global-links" href="https://github.com/OfficeDev/office-ui-fabric-js" target="_blank">Fabric JS</a></li>
                             <li><a className="global-links" href="https://github.com/Microsoft/cseo-design" target="_blank">GitHub</a></li>
-                            <li><a className="global-links" href="https://github.com/Microsoft/cseo-design/issues/new/choose" target="_blank">Report a bug</a></li>
-                            <li><a className="global-links" href="https://github.com/Microsoft/cseo-design/issues/new/choose" target="_blank">Add a work item</a></li>
+                            <li><a className="global-links" href="https://github.com/Microsoft/cseo-design/issues" target="_blank">Report a bug</a></li>
+                            <li><a className="global-links" href="https://github.com/Microsoft/cseo-design/issues" target="_blank">Add a work item</a></li>
                         </ul>
                     </div>
                     <div className="resources-cols">
@@ -42,7 +42,7 @@ onenote:https://microsoft.sharepoint.com/teams/CSEDesign2/Shared%20Documents/Coh
                             <li><a className="global-links" href="https://www.figma.com/file/Qln7Fqzj6PL78ulLFIRFQWzx/CSEO.DESIGN_TOOLKIT-10-1-08?node-id=0%3A1" target="_blank">Figma UI Toolkit</a></li>
                             <li><a className="global-links" href="https://microsoft.sharepoint.com/teams/BrandCentral/Pages/Bundles/Segoe_UI_fonts.aspx" target="_blank">Segoe UI fonts</a></li>
                             <li><a className="global-links" href="http://uni/DesignDepot.FrontEnd/#/iconLibraryResults?productId=45781&t=FULL%20MDL2%20Assets%7CFabric%20MDL2%20Assets&f=Font&theme=light&size=16" target="_blank">Segoe MDL2 Assets icons</a></li>
-                            <li><a className="global-links" href="https://github.com/Microsoft/cseo-design/issues/new/choose" target="_blank">Icon Request</a></li>
+                            <li><a className="global-links" href="https://github.com/Microsoft/cseo-design/issues/" target="_blank">Icon Request</a></li>
                         </ul>
                     </div>
                 </div>

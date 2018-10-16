@@ -13,6 +13,11 @@ p {
  a:hover {
      color:#00852d;
  }
+ pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+ }
 .font-medium {
     font-size: 14px;
 }
@@ -133,7 +138,7 @@ p {
 .code-snippet {
     background: #efefef;
     border: 1px solid #a9a9a9;
-    padding: 20px 0px 20px 30px;
+    padding: 20px 20px 20px 30px;
     border-radius: 5px;
     margin: 0px 100px 50px 0px;
 }

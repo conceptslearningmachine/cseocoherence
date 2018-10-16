@@ -23,7 +23,9 @@ const Navigation = () => {
             or collapsed by default, and is togglable by the user. There are many potential iterations of the navigation - connect
              directly with the Coherence team for further guidance.</p></div>
         {/* Navigation Placeholder for more content */}
-          <img src={NavExpandedCollapsed} alt="Illustration of Nav Collapsed." />
+        <div>
+          <img className="image-width-50" src={NavExpandedCollapsed} alt="Illustration of Nav Collapsed." />
+          </div>
           <div className="med-spacing"></div>
           <div className="med-spacing"></div>
 
