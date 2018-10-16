@@ -91,9 +91,10 @@ onenote:https://microsoft.sharepoint.com/teams/CSEDesign2/Shared%20Documents/Coh
                     <div className="Designer-steps">Step 6: Wait until the owner of the Figma channel approves you</div>
                     <p> Once you  are approved, you will now see the channel under the sidebar. </p>
                     <div className="med-spacing"></div>
-                    <div className="Designer-steps">Step 7: Installing fonts if you’ve installed the desktop app, your fonts should automatically display within Figma.</div>
-                    <p> If you are using Figma on the web with your browser, download <a href="https://help.figma.com/text/using-local-fonts" target="_blank">Figma’s font helper</a>.</p>
-                        
+                    <div className="Designer-steps">Step 7: Installing fonts </div>
+                    <p>If you’ve installed the desktop app, your fonts should automatically display within Figma. If you are using Figma on the web with your browser, download <a href="https://help.figma.com/text/using-local-fonts" target="_blank">Figma’s font helper</a>.</p>
+                    <div className="med-spacing"></div>
+                    <div className="med-spacing"></div>  
                 </div>
             </div>
         </div>
