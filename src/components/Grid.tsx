@@ -55,25 +55,35 @@ const Grid = () => {
                 <div className="med-spacing"></div>
                 <div className="GridImage-placeholder">
                 <p className="header-small">Base grid</p>
+                <a href={BaseGrid} download="base-grid-1368.png">
                     <img className="image-width-95" src={BaseGrid} alt="Illustration of Grid Breakpoint." />
+                    </a>
                 </div>
                 
                 <div className="med-spacing"></div>
                 <div className="GridImage-placeholder">
                 <p className="header-small">1255 px</p>
+                <a href={GridBreakboint1255} download="breakpoint-1255.png">
                     <img className="image-width-95" src={GridBreakboint1255} alt="Illustration of Grid Breakpoint." />
+                    </a>
                 </div>
                 <div className="GridImage-placeholder">
                 <p className="header-small">1368 px</p>
+                <a href={GridBreakboint1368} download="breakpoint-1368.png">
                     <img className="image-width-95" src={GridBreakboint1368} alt="Illustration of Grid Breakpoint." />
+                    </a>
                 </div>
                 <div className="GridImage-placeholder">
                 <p className="header-small">1838 px</p>
+                <a href={GridBreakboint1838} download="breakpoint-1838.png">
                     <img className="image-width-95" src={GridBreakboint1838} alt="Illustration of Grid Breakpoint." />
+                    </a>
                 </div>
                 <div className="GridImage-placeholder">
                 <p className="header-small">2241 px</p>
+                <a href={GridBreakboint2241} download="breakpoint-2241.png">
                     <img className="image-width-95" src={GridBreakboint2241} alt="Illustration of Grid Breakpoint." />
+                    </a>
                 </div>
             </div>
         </div>

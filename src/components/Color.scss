@@ -14,7 +14,6 @@
 //neutral palette
 .light000 {
     background-color: #ffffff;
-    border: 1px solid #666666;
 }
 
 .light100 {
@@ -62,7 +61,6 @@
 
 .disabled {
     background-color: #A6A6A6;
-    border: 1px solid #666666;
 }
 .hyperlink000 {
     background-color: #0078d4;
@@ -78,15 +76,17 @@
 }
 .hyperlink-disabled{
     background-color: #A6A6A6;
-    border: 1px solid #666666;
+}
+.text-warning {
+    background-color: #605E5C;
 }
 
 //Icons Palette
 .icons-warning {
-    background-color: #797673;
+    background-color: #605E5C;
 }
 .icons-warning-severe {
-    background-color: #d83b01;
+    background-color: #D73B02;
 }
 .icons-success {
     background-color: #107c10;

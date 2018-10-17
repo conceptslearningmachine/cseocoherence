@@ -176,7 +176,25 @@ const Color = () => {
                 </table>
                 <p>* For interactive states on App theme backgrounds, use the Primary button state definitions</p>
                 <div className="lg-spacing"></div>
-                
+
+                <div className="SubHeader">Notification text</div>
+
+                 <table className="table-styles">
+                    <thead></thead>
+                    <tbody>
+                        <tr>
+                            <td className="color-col-1">
+                            <ul className="color-info">
+                            <li>Warning</li>
+                            <li>#605E5C</li>
+                        </ul>
+                                </td>
+                            <td className="color-col-2"><div className="color-palette text-warning"></div></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div className="sm-spacing"></div>
                 {/* Icons palette section */}
                 <div className="SubHeader">Notification icons</div>
                 {/* Color Palette for Icons */}
@@ -187,7 +205,7 @@ const Color = () => {
                             <td className="color-col-1">
                             <ul className="color-info">
                             <li>Warning</li>
-                            <li>#797673</li>
+                            <li>#605E5C</li>
                         </ul>
                                 </td>
                             <td className="color-col-2"><div className="color-palette icons-warning"></div></td>
@@ -197,7 +215,7 @@ const Color = () => {
                             <td className="color-col-1">
                             <ul className="color-info">
                             <li>Severe Warning</li>
-                            <li>#D83B01</li>
+                            <li>#D73B02</li>
                         </ul>
                                 </td>
                             <td className="color-col-2"><div className="color-palette icons-warning-severe"></div></td>
