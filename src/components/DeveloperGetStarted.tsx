@@ -159,14 +159,14 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                                 <tr>
                                     <td className="Code-list-col1"><img src={NodejsLogoJPG} alt="Illustration of NodeJS logo." width="54" />
                                     <div className="sm-spacing"></div>
-                                       <a className="global-links" href="https://nodejs.org/en/" target="_blank">Node.js</a> 
+                                       <p><a className="global-links" href="https://nodejs.org/en/" target="_blank">Node.js</a> 
                                        (NOTE: please install the
-                    LTS version as we can't validate current will always work)</td>
+                    LTS version as we can't validate current will always work)</p></td>
                                     <td className="type-col-2">
                                         <img src={VSCodelogoSVG} alt="Illustration of VSCode logo." width="54" />
                                         <p className="sm-spacing"></p>
                                        
-                                        <a className="global-links" href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></td>
+                                        <p><a className="global-links" href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></p></td>
                                 </tr>
                                 <tr></tr>
                                 <tr>

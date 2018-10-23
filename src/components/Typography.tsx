@@ -21,7 +21,7 @@ const Typography = () => {
         <div className="Intro">Consistent with all Microsoft products, We use the Segoe UI font family.</div>
         <div className="med-spacing"></div>
         <div className="SubHeader">Download fonts</div>
-        <p>Windows machines come with Segoe UI pre-installed; for Mac, download here: <a href="http://uni/DesignDepot.FrontEnd/#/iconLibraryResults?productId=45781&t=FULL%20MDL2%20Assets%7CFabric%20MDL2%20Assets&f=Font&theme=light&size=16" className="global-links" target="_blank">Segoe UI</a></p>
+        <p>Windows machines come with Segoe UI pre-installed; for Mac, download here: <a href="https://microsoft.sharepoint.com/teams/BrandCentral/Pages/Bundles/Segoe_UI_fonts.aspx" className="global-links" target="_blank">Segoe UI</a></p>
         <div className="med-spacing"></div>
         <div className="med-spacing"></div>
 

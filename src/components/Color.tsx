@@ -26,6 +26,14 @@ const Color = () => {
                 <table className="table-styles">
                     <thead></thead>
                     <tbody>
+                    <tr>
+                            <td className="color-col-1">
+                                <ul className="color-info">
+                                    <li>Black</li>
+                                    <li>#000000</li>
+                                </ul></td>
+                            <td className="color-col-2"><div className="color-palette primary"></div></td>
+                        </tr>
                         <tr>
                             <td className="color-col-1">
                                 <ul className="color-info">

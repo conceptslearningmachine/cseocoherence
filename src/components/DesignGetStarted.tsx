@@ -59,10 +59,10 @@ onenote:https://microsoft.sharepoint.com/teams/CSEDesign2/Shared%20Documents/Coh
                      <div className="SubHeader">Steps to set up Figma</div>
                      <div className="sm-spacing"></div>
                     <div className="Designer-steps">Step 1: Visit the Figma website to install the application</div>
-                    <p>Download the <b><a href="https://www.figma.com/downloads/" target="_blank">Desktop App</a></b>.</p>
+                    <p>Download the <a href="https://www.figma.com/downloads/" target="_blank">Desktop App</a>.</p>
                     <div className="med-spacing"></div>
                     <div className="Designer-steps">Step 2: Sign Up</div>
-                    <p><b><a href="https://www.figma.com/login" target="_blank">Sign up</a></b> using your Microsoft.com email. Otherwise, you will not have access to join any of Microsoft channels within Figma. </p>
+                    <p><b>Sign up</b> using your Microsoft.com email. Otherwise, you will not have access to join any of Microsoft channels within Figma. </p>
                     <div className="Design-onboarding-image">
                         <div className="Image-spacing"><img src={FigmaLoginJPG} alt="Illustration of login view in Figma." /></div>
                     </div>
