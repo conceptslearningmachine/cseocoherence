@@ -32,7 +32,7 @@ const Color = () => {
                                     <li>Black</li>
                                     <li>#000000</li>
                                 </ul></td>
-                            <td className="color-col-2"><div className="color-palette primary"></div></td>
+                            <td className="color-col-2"><div className="color-palette primary-black"></div></td>
                         </tr>
                         <tr>
                             <td className="color-col-1">
@@ -64,6 +64,7 @@ const Color = () => {
                             <td className="color-col-1">
                                 <ul className="color-info">
                                     <li>Hyperlink</li>
+                                    <li>on white</li>
                                     <li>#0078D4</li>
                                 </ul>
                             </td>
@@ -90,8 +91,8 @@ const Color = () => {
                         <tr>
                             <td className="color-col-1">
                                 <ul className="color-info">
-                                    <li>Hyperlink disabled</li>
-                                    <li>#A6A6A6</li>
+                                    <li>Hyperlink #005A9E on</li>
+                                    <li>#FAFAFA, #F2F2F2, #E5E5E5</li>
                                 </ul>
                             </td>
                             <td className="color-col-2"><div className="color-palette hyperlink-disabled"></div></td>
