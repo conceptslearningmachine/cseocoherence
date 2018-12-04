@@ -262,7 +262,7 @@ const Color = () => {
                             <td className="color-col-1">
                             <ul className="color-info">
                             <li>Warning</li>
-                            <li>#FFFF4CE</li>
+                            <li>#FFF4CE</li>
                         </ul>
                                 </td>
                             <td className="color-col-2"><div className="color-palette alert-warning"></div></td>
