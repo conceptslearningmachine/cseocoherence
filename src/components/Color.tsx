@@ -280,7 +280,7 @@ const Color = () => {
                         <tr>
                             <td className="color-col-1">
                             <ul className="color-info">
-                            <li>Success</li>
+                            <li>Success </li>
                             <li>#DFF6DD</li>
                         </ul>
                             </td>
