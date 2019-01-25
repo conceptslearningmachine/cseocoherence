@@ -3,6 +3,7 @@ import './ComponentPage.scss';
 import HeaderBlue from '../assets/header/header-blue.png';
 import HeaderBlack from '../assets/header/header-black.png';
 import HeaderGray from '../assets/header/header-gray.png';
+import { Link } from 'react-router-dom';
 //import Highlight from 'react-highlight';
 import './HomePage.scss';
 
@@ -11,9 +12,10 @@ const Header = () => {
     return (  
         <div className="PageContent">
           
-         <div className="GlobalHeader"><div className="Page-cseo-header">CSEO</div><b> Coherence</b> 
-         <span className="contact-quicklinks"><a href="mailto:ssedesign_coherence@microsoft.com" >Contact Us</a></span>
-          </div>
+          <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b>
+            <span className="contact-quicklinks"><Link to="/DesignGetStarted"  >For Designers</Link></span>
+            <span className="contact-quicklinks"><Link to="/DeveloperGetStarted"  >For Developers</Link></span>
+            </div>
           
 
          <div className="PageContent-spacing">

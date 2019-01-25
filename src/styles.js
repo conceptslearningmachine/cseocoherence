@@ -66,17 +66,17 @@ h2 {
 }
 .nav-link .active {
   text-decoration: none;
-  color: #11CE0D;
+  color: #0078D7;
   font-weight: 600;
-  border-left: 4px solid #11CE0D;
+  border-left: 4px solid #0078D7;
   padding: 4px 0 4px 45px;
 
 }
 .sub-link .active {
   text-decoration: none;
-  color: #11CE0D;
+  color: #0078D7;
   font-weight: 600;
-  border-left: 4px solid #11CE0D;
+  border-left: 4px solid #0078D7;
   padding: 4px 0 4px 60px;
 
 }

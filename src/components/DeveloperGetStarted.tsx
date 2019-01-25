@@ -2,6 +2,7 @@ import * as React from "react";
 import './ComponentPage.scss';
 import { Pivot, PivotItem, PivotLinkSize, IPivotStyles, PivotLinkFormat } from 'office-ui-fabric-react/lib/Pivot';
 import './HomePage.scss';
+import { Link } from 'react-router-dom';
 import NodejsLogoJPG from '../assets/dev-logos/nodejs_logo.svg';
 import GithubLogoPNG from '../assets/dev-logos/github-mark.png';
 import GitsvnLogoPNG from '../assets/dev-logos/Git-svn-logo.png';
@@ -45,8 +46,9 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
         return (
             <div className="PageContent">
                 <div className="GlobalHeader"><div className="Page-cseo-header">CSEO </div><b>Coherence</b>
-                <span className="contact-quicklinks"><a href="mailto:ssedesign_coherence@microsoft.com" >Contact Us</a></span>
-                </div>
+            <span className="contact-quicklinks"><Link to="/DesignGetStarted"  >For Designers</Link></span>
+            <span className="contact-quicklinks"><Link to="/DeveloperGetStarted"  >For Developers</Link></span>
+            </div>
                 <div className="PageContent-spacing">
                     <div className="PageHeader"><h1>Get started: Developers</h1></div>
 
@@ -98,7 +100,7 @@ export class DeveloperGetStarted extends React.Component<IGettingStartedProps, {
                 {
                     selectors: {
                         ':before': {
-                            borderBottom: '2px solid #00CC6A'
+                            borderBottom: '2px solid #0078D7'
                         }
                     }
                 }

@@ -2,7 +2,7 @@
 $sse-font: 'Segoe UI';
 $sse-color: #333333;
 $component-page-header-size:38px;
-$cseo-brand-primary: #00CC6A;
+$cseo-brand-primary: #0078D7;
 
 p {
     line-height: normal;
@@ -11,7 +11,7 @@ p {
      color: $cseo-brand-primary;
  }
  a:hover {
-     color:#00852d;
+     color:#0079A5;
  }
  pre {
     white-space: pre-wrap;
@@ -24,8 +24,14 @@ p {
 .GlobalHeader {
     font-family: $sse-font;
     font-size: 18px;
-    color:$cseo-brand-primary;
+    color:$sse-color;
     padding: 40px 200px 0 40px;
+}
+.HomeHeader {
+    font-family: $sse-font;
+    font-size: 18px;
+    color:$sse-color;
+    padding: 40px 200px 0 90px;
 }
 .global-links{
     color: $cseo-brand-primary;
@@ -38,6 +44,11 @@ p {
 .header-small {
     font-size: 18px;
     font-weight: 600;
+}
+.homepage-borders {
+    color: $cseo-brand-primary;
+    width: 30px;
+    height: 0px;
 }
 .semibold{
     font-weight: 600;
@@ -58,31 +69,61 @@ p {
     overflow: hidden;
 }
 .HomePageContent {
-    background: #333;
-    min-height: 100vh;
+    background: #0078D7;
+    padding-bottom: 90px;
     color: #fff;
+}
+.HomePageContent-section-2 {
+    background: #f2f2f2;
+    padding-bottom: 90px;
+    .text-header {
+        color: $sse-color;
+        font-weight: 600;
+        padding: 5px 0px 20px 0;
+    }
+    .text-body {
+        color: $sse-color;
+    }
+}
+
+.Homepage-section-2-content{
+    font-size: 16px;
+    display: flex;
+    margin: 60px 300px 0px 90px;
+    line-height: normal;
+    .left-section{
+        padding: 0 50px 0 0;
+    }
+}
+.HomePageContent-section-3 {
+    background: #fafafa;
+    padding-bottom: 90px;
+    .text-header {
+        font-size: 18px;
+        font-weight: bold;
+        color: $sse-color;
+    }
 }
 .PageContent-spacing{
     padding: 30px 0px 20px 40px;
     
 }
-.Homepage-title {
-    font-weight: bold;
-    font-size: 36px;
+.Homepage-header-text {
+    font-size: 44px;
+    font-weight: 100;
     display: flex;
-    margin: 100px 0px 0 40px;
+    margin: 100px 300px 0px 90px;
     line-height: normal;
 }
-.HomePage-contact {
+.link-devs {
+    padding: 0px 0px 0px 0;
+}
+.Homepage-contact-link {
     color: white;
     font-size: 16px;
     display: flex;
     float: right;
-    padding: 0px 0px 50px 0;
-}
-.Homepage-contact-link {
-    color: white;
-    text-decoration: none;
+    padding: 0px 20px 0px 0;
 }
 .Homepage-contact-link:hover {
     color: #c3c3c3;
@@ -162,9 +203,7 @@ p {
     font-weight: 600;
     padding: 0 30px 50px 0;
     color: $cseo-brand-primary;
-    a {
-        text-decoration: none;
-    }
+
 }
 .Developer-steps {
     font-size: 18px;

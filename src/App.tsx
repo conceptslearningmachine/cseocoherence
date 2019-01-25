@@ -3,7 +3,7 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import Updates from './components/Updates';
 import Resources from './components/Resources';
-import Overview from './components/Overview';
+// import Overview from './components/Overview';
 import DeveloperGetStarted from './components/DeveloperGetStarted';
 import DesignGetStarted from './components/DesignGetStarted';
 import Color from './components/Color';
@@ -29,7 +29,7 @@ const App = () => (
         <Route exact path="/cseo-design" component={Home} />
         <Route exact path="/" component={Home} />
         {/* General / Informational pages */}
-        <Route path="/overview" component={Overview} />
+        {/* <Route path="/overview" component={Overview} /> */}
         <Route path="/updates" component={Updates} />
         <Route path="/resources" component={Resources} />
         {/* Get Started */}
